@@ -967,7 +967,7 @@ a {
 }
 
 .btn.btn-green:hover {
-  box-shadow: 0px 8px 20px -8px #00B04A;
+  box-shadow: 0px 8px 20px -8px #00173B;
 }
 
 .btn.btn-brown:hover:before,
@@ -9402,7 +9402,7 @@ textarea.form-control.form-control-lg {
 }
 
 .header-theme-1 {
-  background: #1C0338;
+  /* background: #1C0338; */
 }
 
 .header-theme-1+.subvisual-block,
@@ -9468,7 +9468,7 @@ textarea.form-control.form-control-lg {
   }
 
   .header-menu .navigation>li>a:not(.btn) {
-    color: #fff !important;
+    color: #000 !important;
   }
 }
 
@@ -29891,7 +29891,7 @@ textarea.form-control.form-control-lg {
 .packages-block .categories-image {
   width: 56px;
   height: 56px;
-  background: #43A214;
+  background: #018a8e;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
@@ -50172,7 +50172,7 @@ textarea.form-control.form-control-lg {
 #submitForm3 .salaried-img {
   width: 38px;
   height: 38px;
-  background: #43A214;
+  background: #018a8e;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -50304,7 +50304,7 @@ textarea.form-control.form-control-lg {
 }
 
 .text-success {
-  color: #43A214 !important;
+  color: #018a8e !important;
 }
 
 .bg-light-purple {
@@ -50312,7 +50312,7 @@ textarea.form-control.form-control-lg {
 }
 
 .card-right {
-  border-bottom: 4px solid #43A214 !important;
+  border-bottom: 4px solid #018a8e !important;
 }
 
 .subscription-plan-card {

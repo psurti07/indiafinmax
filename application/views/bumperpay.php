@@ -150,7 +150,7 @@ $this->load->view('includes/header-offer');
                                         href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
                                         class="text-dark">Terms of Use</a> and <a
                                         href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-                                        class="text-dark">Privacy Policy</a> of Flexicread.com
+                                        class="text-dark">Privacy Policy</a> of Indiafinmax.com
                                 </small></p>
                         </div>
                     </div>

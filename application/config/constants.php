@@ -90,15 +90,15 @@ defined('EXIT__AUTO_MAX') or define('EXIT__AUTO_MAX', 125); // highest automatic
  */
 
 // Project details
-define('PROJECT_NAME', 'Flexicread');
-define('COMPANY_NAME', 'Shree Ram Finhub Solutions LLp');
-define('COMPANY_EMAIL', 'info@flexicread.com');
-define('COMPANY_MOBILE', '+91-96241-85521');
+define('PROJECT_NAME', 'Indiafinmax');
+define('COMPANY_NAME', 'YHR Finserv');
+define('COMPANY_EMAIL', 'info@indiafinmax.com');
+define('COMPANY_MOBILE', '+91-98984-89596');
 define('COMPANY_CIN', '#');
-define('COMPANY_GST', '24AGAFS9150R1ZC');
-define('COMPANY_SITE', 'https://flexicread.com');
+define('COMPANY_GST', '24FCGPB3811P1ZL');
+define('COMPANY_SITE', 'https://indiafinmax.com');
 define('PARTNER_SITE', '#');
-define('COMPANY_ADDRESS', 'Flat No.32, Akshardeep Society, Singanore Char Rasta, Singanpore, Surat, Guajarat,395004');
+define('COMPANY_ADDRESS', '11th Floor, H-1106, Pandit Deendayal Nagar, Ugat-Bhesan Road, Beside Medical College, Jahangirabad, Surat, Gujarat – 395004.');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
 define('SECURE_SALT', 'verloopweb');
@@ -113,14 +113,14 @@ define('SM_PINTEREST', '#');
 define('SM_YOUTUBE', '#');
 
 // Email SMTP details
-define('SMTP_HOST', 'mail.flexicread.com');
-define('SMTP_USER_INFO', 'info@flexicread.com');
+define('SMTP_HOST', 'mail.indiafinmax.com');
+define('SMTP_USER_INFO', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_INFO', '#');
 
-define('SMTP_USER_SUPPORT', 'info@flexicread.com');
+define('SMTP_USER_SUPPORT', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_SUPPORT', '#');
 
-define('SMTP_USER_HR', 'info@flexicread.com');
+define('SMTP_USER_HR', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_HR', '#');
 
 // OBB - SMS details - m
@@ -130,9 +130,9 @@ define('SMS_OBB_PASSWORD', '#');
 define('SMS_OBB_SENDER_ID', '#');
 
 // SENDINBLUE details
-define('SMTP_USER', 'info@flexicread.com');
+define('SMTP_USER', 'info@indiafinmax.com');
 define('SIB_NAME', '#');
-define('SIB_EMAILID', 'info@flexicread.com');
+define('SIB_EMAILID', 'info@indiafinmax.com');
 define('SIB_APIKEY', '#');
 
 // Phonepe details
@@ -153,13 +153,6 @@ define('SABPAISA_USERNAME', '#');
 define('SABPAISA_PASSWORD', '#');
 define('SABPAISA_AUTH_KEY', '#');
 define('SABPAISA_AUTH_IV', '#');
-
-/*define('SABPAISA_MODE', 'TEST');
-define('SABPAISA_CLIENT_CODE', 'DCRBP');
-define('SABPAISA_USERNAME', 'userph.jha_3036');
-define('SABPAISA_PASSWORD', 'DBOI1_SP3036');
-define('SABPAISA_AUTH_KEY', '0jeOYcu3UnfmWyLC');
-define('SABPAISA_AUTH_IV', 'C28LAmGxXTqmK0QJ');*/
 
 // Airpay details
 define('AIRPAY_MERCHANT', '#');

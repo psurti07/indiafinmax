@@ -79,7 +79,7 @@ $this->load->view('includes/header-apply.php');
                                 <div class="d-flex align-items-start "> <input type="checkbox" name="tandc" id="tandc"
                                         class="custom-control-input mb-0 mt-5" value="1" checked required>
                                     <label class="custom-control-label" for="tandc"><small
-                                            class="ms-10 d-block h6 fw-normal">By proceeding, I agree to FlexiCred’s <a
+                                            class="ms-10 d-block h6 fw-normal">By proceeding, I agree to Indiafinmax’s <a
                                                 href="<?= base_url('terms-conditions') ?>" target="_blank"
                                                 style="text-decoration: none;" class="text-dark">Terms of
                                                 Use</a>
@@ -98,7 +98,7 @@ $this->load->view('includes/header-apply.php');
                                         class="custom-control-input mb-0 mt-5" value="1" checked required>
                                     <label class="custom-control-label" for="promotion"><small
                                             class="ms-10 d-block h6 fw-normal">
-                                            I would like to receive updates from FlexiCred by email, call or SMS. I can opt out anytime.
+                                            I would like to receive updates from Indiafinmax by email, call or SMS. I can opt out anytime.
                                         </small></label>
                                 </div>
                                 <div class="help-block ms-0 ps-0 mb-2"></div>
@@ -395,8 +395,8 @@ $this->load->view('includes/header-apply.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-12 col-lg-4 txt-col mb-20">
-                <h2 class="mb-15">Why Choose <br> <span class="text-success"> FlexiCread </span></h2>
-                <p>FlexiCred provides clear support for loan applications, including documents, process steps and NBFC requirements.</p>
+                <h2 class="mb-15">Why Choose <br> <span class="text-success"> Indiafinmax </span></h2>
+                <p>Indiafinmax provides clear support for loan applications, including documents, process steps and NBFC requirements.</p>
                 <img src="<?= base_url('assets/images/img/trust-img.png') ?>" alt="">
 
             </div>
@@ -445,7 +445,7 @@ $this->load->view('includes/header-apply.php');
             any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</small></p>
 
         <p class="mb-0"><small><strong>Important Note: </strong>We ask our customers to make payments ONLY on our website <a
-                class="text-dark" href="<?php echo COMPANY_SITE; ?>">Flexicread.com</a> and NOT through any other
+                class="text-dark" href="<?php echo COMPANY_SITE; ?>">Indiafinmax.com</a> and NOT through any other
             source, directly or indirectly.</small></p>
 
         <p class="mb-0"><small><strong>Pre-application NOTE: </strong>Users are advised to read our terms and conditions and

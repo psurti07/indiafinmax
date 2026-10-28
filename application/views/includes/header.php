@@ -15,23 +15,23 @@
 
     <title>
         <?php if (isset($meta->title)) {
-      echo $meta->title;
-    } else {
-      echo "Apply for Instant Personal Loan Online approvals | flexicread";
-    } ?>
+            echo $meta->title;
+        } else {
+            echo "Apply for Instant Personal Loan Online approvals | indiafinmax";
+        } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
-    echo $meta->descriptions;
-  } ?>" />
+                                            echo $meta->descriptions;
+                                        } ?>" />
     <meta name="keywords" content="<?php if (isset($meta->keywords)) {
-    echo $meta->keywords;
-  } ?>" />
+                                        echo $meta->keywords;
+                                    } ?>" />
 
-    <meta property="og:title" content="flexicread: Your Trusted Source for Quick and Easy Financing">
-    <meta property="og:site_name" content="flexicread">
+    <meta property="og:title" content="indiafinmax: Your Trusted Source for Quick and Easy Financing">
+    <meta property="og:site_name" content="indiafinmax">
     <meta property="og:url" content="<?php echo site_url(); ?>">
     <meta property="og:description"
-        content="flexicread Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
+        content="indiafinmax Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo base_url('assets/img/logo/logo-lg.png'); ?>">
     <meta property="og:locale" content="en_IN">
@@ -69,44 +69,44 @@
     <script src="<?= base_url('assets/js/plugins/jquery-3-6-0.min.js'); ?>"></script>
     <!-- Facebook Domain + Pixel Code -->
     <?php
-  $fbdomain = getFacebookDomain();
-  if ($fbdomain != Null) {
-    echo '<meta name="facebook-domain-verification" content="' . $fbdomain . '" />';
-  }
+    $fbdomain = getFacebookDomain();
+    if ($fbdomain != Null) {
+        echo '<meta name="facebook-domain-verification" content="' . $fbdomain . '" />';
+    }
 
-  $fbpixel = getFacebookPixel();
-  if ($fbpixel != Null) {
-?>
+    $fbpixel = getFacebookPixel();
+    if ($fbpixel != Null) {
+    ?>
 
-    <script>
-    ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '<?php echo $fbpixel; ?>');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=<?php echo $fbpixel; ?>&ev=PageView&noscript=1" /></noscript>
+        <script>
+            ! function(f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function() {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '<?php echo $fbpixel; ?>');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=<?php echo $fbpixel; ?>&ev=PageView&noscript=1" /></noscript>
     <?php } ?>
     <!-- End Facebook Domain + Pixel Code -->
 
     <script>
-    const base_url = '<?php echo base_url(); ?>'
+        const base_url = '<?php echo base_url(); ?>'
     </script>
 
 </head>
@@ -118,45 +118,47 @@
     <!-- main container of all the page elements -->
     <div id="wrapper">
         <!--=====HEADER START=======-->
-        <header class="header header-theme-1">
+        <header class="header header-theme-1 ">
             <div class="container">
                 <div class="text-start">
-                <strong class="logo">
-                    <a href="<?php echo site_url(); ?>">
-                        <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo-light.png'); ?>"
-                            alt="flexicread">
-                        <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
-                            alt="flexicread">
-                    </a>
-                </strong>
-</div>
+                    <strong class="logo">
+                        <a href="<?php echo site_url(); ?>">
+                            <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
+                                alt="indiafinmax">
+                            <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
+                                alt="indiafinmax">
+                        </a>
+                    </strong>
+                </div>
                 <div class="header-right">
-                <a class="btn btn-green mobile-btn"
-                    href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
-                        Now</span></a>
-                <div class="main-nav ms-10 header-menu">
-                    <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
-                    <div class="nav-drop d-lg-flex align-items-center justify-content-between">
-                        <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
+                    <a class="btn btn-green mobile-btn"
+                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
+                            Now</span></a>
+                    <div class="main-nav ms-10 header-menu">
+                        <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
+                        <div class="nav-drop d-lg-flex align-items-center justify-content-between">
+                            <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
 
-                        <ul class="navigation">
-                            <li><a href="<?php echo site_url(); ?>">Home</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
-                            <li><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
+                            <ul class="navigation">
+                                <li><a href="<?php echo site_url(); ?>">Home</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
+                                <li><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
 
-                        </ul>
+                            </ul>
+
+                        </div>
 
                     </div>
-
                 </div>
-</div>
                 <div>
 
                     <a class="btn btn-green desktop-btn btn-sm"
-                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
-                            Now</span></a>
+                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">Apply
+                            Now <img
+                                    src="<?php echo base_url('assets/images/icons/arrow-right.png'); ?>"
+                                    alt="Video Image"></span></a>
 
                 </div>
             </div>

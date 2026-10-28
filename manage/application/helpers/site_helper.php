@@ -381,7 +381,7 @@ function sendHTMLmail($to, $from, $subject, $message, $smtpemail = '', $attachfi
 
     $ci = get_instance();
     $ci->email->initialize($config);
-    $ci->email->from($from, 'flexicread.com');
+    $ci->email->from($from, 'indiafinmax.com');
     $ci->email->to($to);
     $ci->email->subject($subject);
     $ci->email->message($message);

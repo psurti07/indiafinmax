@@ -609,7 +609,7 @@ display: none; */
   --card-line-height: 1.2em;
   --card-padding: 1em;
   --card-radius: 0.5em;
-  --color-green: #43A214;
+  --color-green: #018a8e;
   --color-gray: #e2ebf6;
   --color-dark-gray: #c4d1e1;
   --radio-border-width: 1px;
@@ -1432,7 +1432,7 @@ padding: 15px;
 }
 
 .salaried-img-wrap {
-  background: #43A2141A;
+  background: #018a8e1A;
   width: 64px;
   height: 64px;
   display: flex;

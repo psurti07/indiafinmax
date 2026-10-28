@@ -89,14 +89,14 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
  */
 
 // Project details
-define('PROJECT_NAME', 'Flexicread');
+define('PROJECT_NAME', 'Indiafinmax');
 define('COMPANY_NAME', 'Shree Ram Finhub Solutions LLp');
-define('COMPANY_EMAIL', 'info@flexicread.com');
+define('COMPANY_EMAIL', 'info@indiafinmax.com');
 define('COMPANY_MOBILE', '+91-95127-63889');
 define('COMPANY_CIN', 'ACP-2746');
 define('COMPANY_GST', '24ACKFA3022A1Z8');
-define('COMPANY_SITE', 'https://flexicread.com');
-define('PARTNER_SITE', 'https://site.flexicread.com');
+define('COMPANY_SITE', 'https://indiafinmax.com');
+define('PARTNER_SITE', 'https://site.indiafinmax.com');
 define('COMPANY_ADDRESS', '1st Flr, Plot 29, Parvati Nagar CHS2, Katargam Road, Katargam, Surat, Gujarat - 395004');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
@@ -121,14 +121,14 @@ define('SM_PINTEREST', '#');
 define('SM_YOUTUBE', '#');
 
 // Email SMTP details
-define('SMTP_HOST', 'mail.flexicread.com');
-define('SMTP_USER_INFO', 'info@flexicread.com');
+define('SMTP_HOST', 'mail.indiafinmax.com');
+define('SMTP_USER_INFO', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_INFO', 'Finbazar@4545');
 
-define('SMTP_USER_SUPPORT', 'info@flexicread.com');
+define('SMTP_USER_SUPPORT', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_SUPPORT', 'Finbazar@4545');
 
-define('SMTP_USER_HR', 'info@flexicread.com');
+define('SMTP_USER_HR', 'info@indiafinmax.com');
 define('SMTP_PASSWORD_HR', 'Finbazar@4545');
 
 // OBB - SMS details - m
@@ -138,9 +138,9 @@ define('SMS_OBB_PASSWORD', '#');
 define('SMS_OBB_SENDER_ID', '#');
 
 // SENDINBLUE details
-define('SMTP_USER', 'info@flexicread.com');
-define('SIB_NAME', 'flexicread.com');
-define('SIB_EMAILID', 'info@flexicread.com');
+define('SMTP_USER', 'info@indiafinmax.com');
+define('SIB_NAME', 'indiafinmax.com');
+define('SIB_EMAILID', 'info@indiafinmax.com');
 define('SIB_APIKEY', '#');
 
 // Whatsapp API

@@ -5,39 +5,39 @@
 	            <div class="row">
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-35 mb-md-45 mb-lg-0">
 	                    <div class="finder-theme-1">
-	                        <img src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>" alt="flexicread"
+	                        <img src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid" width="195">
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
-	                                <p>At FlexiCred, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
+	                                <p>At Indiafinmax, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
 	                            </div>
 
 	                            <ul class="social-networks no-bg d-flex flex-wrap">
 	                                <?php if (SM_FACEBOOK != '#') { ?>
 	                                <li><a href="<?php echo SM_FACEBOOK; ?>"> <img
 	                                            src="<?php echo base_url('assets/images/icons/facebook.png'); ?>"
-	                                            alt="Flexicread" class="img-fluid"></a></li>
+	                                            alt="Indiafinmax" class="img-fluid"></a></li>
 	                                <?php } ?>
 	                                <?php if (SM_INSTAGRAM != '#') { ?>
 	                                <li><a href="<?php echo SM_INSTAGRAM; ?>"> <img
 	                                            src="<?php echo base_url('assets/images/icons/instagram.png'); ?>"
-	                                            alt="Flexicread" class="img-fluid"></a></li>
+	                                            alt="Indiafinmax" class="img-fluid"></a></li>
 	                                <?php } ?>
 	                                <?php if (SM_TWITTER != '#') { ?>
 	                                <li><a href="<?php echo SM_TWITTER; ?>"> <img
 	                                            src="<?php echo base_url('assets/images/icons/twitter.png'); ?>"
-	                                            alt="Flexicread" class="img-fluid"></a></li>
+	                                            alt="Indiafinmax" class="img-fluid"></a></li>
 	                                <?php } ?>
 	                                <?php if (SM_LINKEDIN != '#') { ?>
 	                                <li><a href="<?php echo SM_LINKEDIN; ?>"> <img
 	                                            src="<?php echo base_url('assets/images/icons/linkdin.png'); ?>"
-	                                            alt="Flexicread" class="img-fluid"></a></li>
+	                                            alt="Indiafinmax" class="img-fluid"></a></li>
 	                                <?php } ?>
 	                                <?php if (SM_YOUTUBE != '#') { ?>
 	                                <li><a href="<?php echo SM_YOUTUBE; ?>"> <img
 	                                            src="<?php echo base_url('assets/images/icons/youtube.png'); ?>"
-	                                            alt="Flexicread" class="img-fluid"></a></li>
+	                                            alt="Indiafinmax" class="img-fluid"></a></li>
 	                                <?php } ?>
 
 	                            </ul>
@@ -73,20 +73,20 @@
 	                    <ul class="contact-list">
 	                       
 	                        <li>
-	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Flexicread"
+	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><?php echo COMPANY_ADDRESS; ?></span>
 	                        </li>
 	                        <li>
-	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="flexicread"
+	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a
 	                                    href="tel:<?php echo COMPANY_MOBILE; ?>"><?php echo COMPANY_MOBILE; ?></a></span>
 	                        </li>
 	                        <li>
-	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="flexicread"
+	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a

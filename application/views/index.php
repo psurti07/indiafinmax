@@ -2,72 +2,14 @@
 $this->load->view('includes/header');
 ?>
 
-<div
-    class="visual-block visual-theme-5 bg-dark hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-40 pb-xl-40 pb-md-40">
+<div class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-40 pb-xl-40 pb-md-40">
     <div class="container position-relative">
         <div class="row align-items-center">
             <div class="col-12 col-lg-7 col-xl-7 position-relative">
                 <div class="me-25">
                     <div class="visual-textbox pt-0">
-                        <h1 class="text-light" style="line-height: 1.5;">Smart Loan Guidance, <br>Made Simple with <br><img
-                                src="<?php echo base_url("assets/images/logo/flexiimg.png"); ?>" alt="image"
-                                class="me-5">
-                        </h1>
-                        <p class="text-light">Get clear support for documents, application steps and understanding lender terms</p>
-                        <div
-                            class="form-search d-flex flex-column flex-sm-row justify-content-between hero-section-form">
-                            <div class="fields-holder bg-white text-black d-flex flex-wrap flex-sm-nowrap ">
-                                <div class="form-group">
-                                    <ul class="check-list">
-                                        <li><img src="<?php echo base_url('assets/images/icons/check-img.png'); ?>"
-                                                alt="image" class="me-10">Document Guidance</li>
-                                    </ul>
-                                </div>
-                                <div class="form-group ms-5">
-                                    <ul class="check-list">
-                                        <li><img src="<?php echo base_url('assets/images/icons/proccess-img.png'); ?>"
-                                                alt="image" class="me-10">Simple Application</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div>
-                                <a href="<?php echo site_url('onlineprocess/applynow'); ?>"
-                                    class="btn btn-green btn-sm"><span class="btn-text">Apply Now <img
-                                            src="<?php echo base_url('assets/images/icons/arrow-right.png'); ?>"
-                                            alt="Video Image"></span></a>
-                            </div>
-                        </div>
-                        <div class="pt-0 pb-0">
-                            <div class="counters-block pb-0">
-                                <div class="container">
-                                    <div class="row justify-content-center justify-content-md-between">
-
-                                        <div class="col-lg-12">
-                                            <div class="row">
-                                                <div class="col-lg-3 col-12">
-                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
-                                                            class="fas fa-check-circle text-green subtext me-5"></i> Clear Process
-                                                    </h6>
-                                                </div>
-                                                <div class="col-lg-5 col-12">
-                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
-                                                            class="fas fa-check-circle text-green subtext me-5"></i>
-                                                        Transparent Service Information</h6>
-                                                </div>
-                                                <div class="col-lg-4 col-12">
-                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
-                                                            class="fas fa-check-circle text-green subtext me-5"></i>
-                                                        Application Support</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="section-theme-6 pt-35 pb-0">
-                            <div class="counters-block pb-0">
+                            <!-- <div class="counters-block pb-0">
                                 <div class="container">
                                     <div class="row">
 
@@ -90,59 +32,27 @@ $this->load->view('includes/header');
                                             </div>
 
                                         </div>
-                                        <div class="col-lg-9 col-md-9 col-sm-9 col-12">
-                                            <div class="row justify-content-center justify-content-md-between">
-                                                <div class="col-lg-4 col-4">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-12 justify-content-center align-items-center m-auto">
+                                            <div class="row">
+                                                <div class="col-12">
                                                     <div class="counter-box">
                                                         <div class="counter-stats">
-                                                            <strong class="numbers h2 mb-0 text-light">
-                                                                <span data-purecounter-duration="1"
-                                                                    data-purecounter-start="0" data-purecounter-end="10"
-                                                                    data-purecounter-once="true"
-                                                                    class="purecounter">10</span>K+
-                                                            </strong>
-                                                            <span class="subtext text-light">Happy Clients</span>
+                                                            <p class="">5,000+ happy clients</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-4">
-
-                                                    <div class="counter-box">
-                                                        <div class="counter-stats">
-                                                            <strong class="numbers h2 mb-0 text-light">
-                                                                <span data-purecounter-duration="1"
-                                                                    data-purecounter-start="0" data-purecounter-end="12"
-                                                                    data-purecounter-once="true"
-                                                                    class="purecounter">₹12</span>Cr+
-                                                            </strong>
-                                                            <span class="subtext text-light">Loans Disbursed</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-4 col-4">
-                                                    <div class="counter-box">
-                                                        <div class="counter-stats">
-                                                            <strong class="numbers h2 mb-0 text-light">
-                                                                <span data-purecounter-duration="1"
-                                                                    data-purecounter-start="0" data-purecounter-end="10"
-                                                                    data-purecounter-once="true"
-                                                                    class="purecounter">10</span>+
-                                                            </strong>
-                                                            <span class="subtext text-light">NBFC Partners</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
-                            </div>
+                            </div> -->
                         </div>
+                        <h1 class="" style="line-height: 1.5;">Smart Loan Guidance, <br>Made Simple with <br><span class="text-success">IndiaFinMax</span></h1>
+                        <p class="">Get clear support for documents, application steps and understanding lender terms</p>
+                        <a href="<?php echo site_url('onlineprocess/applynow'); ?>"
+                            class="btn btn-green btn-sm"><span class="btn-text">Apply Now <img
+                                    src="<?php echo base_url('assets/images/icons/arrow-right.png'); ?>"
+                                    alt="Video Image"></span></a>
                     </div>
                 </div>
             </div>
@@ -154,31 +64,24 @@ $this->load->view('includes/header');
     </div>
 
 </div>
-<div class="banner__img-two partner-bg-img text-center d-flex align-items-center justify-content-center">
-    <img src="<?= base_url('assets/images/partner-bg.png'); ?>" alt="" class="img-fluid d-md-block d-none">
-</div>
-<div class="banner__img-two partner-bg-img text-center d-flex align-items-center">
-    <img src="<?php echo base_url('assets/images/mobile-img.jpeg'); ?>" alt="image" class="img-fluid d-md-none d-block">
-</div>
 
 <main class="main">
     <section class="section section-theme-5 pt-0 pt-md-0 pb-xl-0 pb-0 partner-section">
         <div class="container">
             <div class="trending-categories-slider">
                 <?php foreach ($banklist as $row) { ?>
-                <div class="wrap text-center">
-                    <div class="justify-content-center categories-image">
-                        <img src="<?php echo base_url('assets/images/bank/' . $row->bank_image); ?>"
-                            alt="<?= $row->bank_name ?>" class="m-auto img-fluid">
+                    <div class="wrap text-center">
+                        <div class="justify-content-center categories-image">
+                            <img src="<?php echo base_url('assets/images/bank/' . $row->bank_image); ?>"
+                                alt="<?= $row->bank_name ?>" class="m-auto img-fluid">
+                        </div>
                     </div>
-                </div>
                 <?php } ?>
             </div>
         </div>
     </section>
 
-    <section
-        class="section section-theme-2 featured-joblix-block pt-60 pt-md-60 pt-xl-0 pb-60 pb-xl-80 pb-md-60 about-section"
+    <section class="section section-theme-2 featured-joblix-block pt-60 pt-md-60 pt-xl-0 pb-60 pb-xl-80 pb-md-60 about-section"
         id="aboutus">
         <div class="container">
 
@@ -187,8 +90,8 @@ $this->load->view('includes/header');
                 <div class="col-12 col-lg-6 mt-10 mb-15 mb-md-30 mb-lg-0">
                     <header class="section-header">
                         <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">Who We Are</span>
-                        <h2 class="mb-10">About <span class="text-success">Flexicread</span></h2>
-                        <p class="">FlexiCred provides loan application support and consultation services. Our team helps customers understand documentation, application steps and lender requirements. We work with associated NBFC partners to support a clear and transparent application experience.</p>
+                        <h2 class="mb-10">About <span class="text-success">Indiafinmax</span></h2>
+                        <p class="">Indiafinmax provides loan application support and consultation services. Our team helps customers understand documentation, application steps and lender requirements. We work with associated NBFC partners to support a clear and transparent application experience.</p>
                     </header>
                 </div>
                 <div class="col-12 col-lg-6 mt-10 aboutus-cnt">
@@ -266,64 +169,81 @@ $this->load->view('includes/header');
             </div>
 
 
-            <div class="row process-boxes justify-content-center">
-                <div class="col-md-4 col-sm-6 mb-10">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Share Basic Details</h6>
-                        <p class="text-dark">Start by sharing the information needed to understand your application requirements.</p>
-                    </a>
+            <div class="row process-boxes justify-content-center g-3">
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Share Basic Details</h6>
+                            <p class="text-dark mb-0">Start by sharing the information needed to understand your application requirements.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-10">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Review Application Details</h6>
-                        <p class="text-dark">We help you review basic eligibility factors, documents and next steps. Final eligibility is decided by the lender.</p>
-                    </a>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Review Application Details</h6>
+                            <p class="text-dark mb-0">We help you review basic eligibility factors, documents and next steps. Final eligibility is decided by the lender.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-10">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Choose Application Support</h6>
-                        <p class="text-dark">Select a support plan to access document guidance and application assistance. Service charges, if applicable, are shown clearly before payment.</p>
-                    </a>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Choose Application Support</h6>
+                            <p class="text-dark mb-0">Select a support plan to access document guidance and application assistance. Service charges, if applicable, are shown clearly before payment.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-10">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Upload Documents Securely</h6>
-                        <p class="text-dark">Submit the required documents through the secure customer portal.</p>
-                    </a>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Upload Documents Securely</h6>
+                            <p class="text-dark mb-0">Submit the required documents through the secure customer portal.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-10">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Lender Review</h6>
-                        <p class="text-dark">The NBFC reviews your documents and profile according to its internal policies and applicable guidelines.</p>
-                    </a>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Lender Review</h6>
+                            <p class="text-dark mb-0">The NBFC reviews your documents and profile according to its internal policies and applicable guidelines.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-0">
-                    <a href="#" class="text-center">
-                        <div class="icon mb-20">
-                            <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>" alt="icon">
-                        </div>
-                        <h6 class="text-dark">Receive Lender Decision</h6>
-                        <p class="text-dark mb-0">The lender communicates its decision and next steps directly, subject to its eligibility criteria and terms.</p>
-                    </a>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="bg-white p-3 border rounded h-100">
+                        <a href="#" class="text-center text-decoration-none d-flex flex-column h-100">
+                            <div class="icon my-20">
+                                <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>" alt="icon">
+                            </div>
+                            <h6 class="text-dark">Receive Lender Decision</h6>
+                            <p class="text-dark mb-0">The lender communicates its decision and next steps directly, subject to its eligibility criteria and terms.</p>
+                        </a>
+                    </div>
                 </div>
+
             </div>
-
-
 
         </div>
     </section>
@@ -335,8 +255,8 @@ $this->load->view('includes/header');
                 <div class="col-12 col-md-12 col-lg-5 txt-col mb-lg-0 mb-20">
 
                     <p class="mb-10 mb-lg-15 title-text text-success text-uppercase">Why Choose Us?</p>
-                    <h2 class="mb-15">What Makes <span class="text-success">FlexiCread <br> </span>Different?</h2>
-                    <p>FlexiCred provides clear and transparent loan application support, with guidance at every stage of the process.</p>
+                    <h2 class="mb-15">What Makes <span class="text-success">Indiafinmax <br> </span>Different?</h2>
+                    <p>Indiafinmax provides clear and transparent loan application support, with guidance at every stage of the process.</p>
                     <ul class="list-unstyled help-list">
                         <li><img src="<?php echo base_url('assets/images/icons/list-img.png'); ?>" alt="image">
                             Associated NBFC Network</li>
@@ -582,7 +502,7 @@ $this->load->view('includes/header');
                                     </div>
                                 </div>
                             </div>
-                             <div>
+                            <div>
                                 <div class="bg-light-sky p-15 border testimonials-card-content">
                                     <p class="card-position mb-0">Harshil Desai</p>
                                     <div class="rates-review">
@@ -643,7 +563,7 @@ $this->load->view('includes/header');
                     <p class="mb-10 mb-lg-15 title-text text-success text-uppercase">FAQ</p>
                     <h2 class="mb-15">Frequently Asked Questions</h2>
                     <p>Got questions? We’ve got answers. Here’s everything you need to know about applying for a loan
-                        with Flexicread.</p>
+                        with Indiafinmax.</p>
 
                 </div>
                 <div class="col-md-8">
@@ -696,8 +616,8 @@ $this->load->view('includes/header');
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
                                     <p>
-                                        NBFCs may assess income, credit history, existing financial obligations, documents and other internal criteria. FlexiCred can guide you on the application process, but the final decision is made by the NBFC.
-                                    
+                                        NBFCs may assess income, credit history, existing financial obligations, documents and other internal criteria. Indiafinmax can guide you on the application process, but the final decision is made by the NBFC.
+
                                     </p>
                                 </div>
                             </div>
@@ -716,7 +636,7 @@ $this->load->view('includes/header');
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
                                     <p>
-                                       Requirements may vary by NBFC, but commonly include identity proof, address proof, income-related documents and bank statements. A complete checklist is shared based on the application requirements.
+                                        Requirements may vary by NBFC, but commonly include identity proof, address proof, income-related documents and bank statements. A complete checklist is shared based on the application requirements.
                                     </p>
                                 </div>
                             </div>
@@ -879,18 +799,18 @@ $this->load->view('includes/header');
         </div>
     </section>
     <?php if ($msg[0]->option_value == 1 && $msg[1]->option_value != '') { ?>
-    <div class="modal fade" id="welcomemsg" tabindex="-1" aria-labelledby="loginmodal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
-            <div class="modal-content" id="loginmodal">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <?php echo $msg[1]->option_value; ?>
+        <div class="modal fade" id="welcomemsg" tabindex="-1" aria-labelledby="loginmodal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+                <div class="modal-content" id="loginmodal">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <?php echo $msg[1]->option_value; ?>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <?php } ?>
 </main>
 
@@ -899,20 +819,20 @@ $this->load->view('includes/footer');
 ?>
 
 <script type="text/javascript">
-$(function() {
-    $('#submitForm3').on('submit', function(e) {
-        e.preventDefault();
-        var pageid = $('#getapage').find(":selected").val();
+    $(function() {
+        $('#submitForm3').on('submit', function(e) {
+            e.preventDefault();
+            var pageid = $('#getapage').find(":selected").val();
 
-        if (pageid == 1 || pageid == 2) {
-            window.location = "onlineprocess/applynow";
-        }
+            if (pageid == 1 || pageid == 2) {
+                window.location = "onlineprocess/applynow";
+            }
+        });
     });
-});
 </script>
 
 <script type="text/javascript">
-$(window).on('load', function() {
-    $('#welcomemsg').modal('show');
-});
+    $(window).on('load', function() {
+        $('#welcomemsg').modal('show');
+    });
 </script>

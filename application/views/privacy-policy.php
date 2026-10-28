@@ -9,7 +9,7 @@ $this->load->view('includes/header-apply');
             <div class="col-12">
                 <div class="subvisual-textbox text-white">
                     <h3>Privacy Policy</h3>
-                    <p>How FlexiCread collects, uses, and protects your information.</p>
+                    <p>How Indiafinmax collects, uses, and protects your information.</p>
                 </div>
             </div>
         </div>

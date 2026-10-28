@@ -235,7 +235,7 @@
                     <div class="text-center">
                         <div class="mb-20">
                             <h3 class="text-light">Ready to apply?</h3>
-                            <p class="text-light">Join thousands who trust FlexiCread for fast, fair borrowing.</p>
+                            <p class="text-light">Join thousands who trust Indiafinmax for fast, fair borrowing.</p>
                         </div>
                         <div>
                             <a href="<?php echo site_url('onlineprocess/applynow'); ?>"
