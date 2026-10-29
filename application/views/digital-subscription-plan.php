@@ -1,5 +1,5 @@
 <?php
-$this->load->view('includes/header-offer.php');
+$this->load->view('includes/header-apply.php');
 //$today = date("Y-m-d", strtotime($userdetails['rec_date']));
 //$last30 = date('Y-m-d', strtotime('-30 days'));
 //if ($today <= $last30) {
@@ -9,47 +9,112 @@ $this->load->view('includes/header-offer.php');
 //}
 $eligibilityamtindia = formatePriceIndia($eligibilityamt);
 ?>
-
-<main class="main">
-    <section class="section section-theme-1 packages-block pt-40 bg-light section-theme-12">
+<section class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-80 pb-xl-80 pb-md-80">
         <div class="container">
-            <div class=" how-we-help-block">
-                <div class="row mb-30">
-                    <div class="col-12 col-md-8 col-lg-10 card-left">
+            
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mb-15 mb-md-30">
+                    
+                    <div class="card shadow border-0 p-25 pt-md-50 mt-md-0 mt-5" style="background:rgba(0, 23, 59, 1); border-radius:15px 0 0 15px;">
 
-                        <div class="subhead mb-0 p-35 loan-offer-card">
-
-                            <h5 class="mb-10 text-white"><?php echo $userdetails['loanname']; ?></h5>
-                            <p class="text-white">Your <strong class="text-success">Rs.
+                        <div class="subhead mb-0 pb-15">
+                            <span class='px-10 h6 rounded py-5 d-inline-block offer-valid-content'><i
+                                    class="fa fa-suitcase me-10"></i><?php echo $userdetails['loanname']; ?></span>
+                                    
+                            <h5 class="mb-10 text-white">Great news, <?php echo $userdetails['fullname']; ?>! 🎉</h5>
+                            <p class="text-white small">Your <strong class="text-success">Rs.
                                     <?php echo $eligibilityamtindia; ?> </strong> pre-approved loan is waiting.
                                 Purchase
                                 a subscription to proceed.</p>
                             <span class='px-10 h6 rounded py-5 d-inline-block offer-valid-content'><i
                                     class="fa-regular fa-clock me-10"></i>Valid
                                 till 12 AM tonight</span>
+
+                                 <p class="text-uppercase sub-title d-block text-white small pt-10">Desired Loan Amount</p>
+
+                        <h5 class=" mb-0 font-weight-bold text-white pb-10">₹
+                            <?php echo formatePriceIndia($userdetails['loanamount']); ?> </h5>
+                            <p class="mb-3 text-white" style="font-size: 15px;">Tenure: up to 60 months · ROI from 11%*</p>
                         </div>
 
 
+                        <p class="text-uppercase fw-bold text-white">Customer details</p>
+                        <div class="user-details-table mb-0 pb-10">
+                            <div class="d-flex mb-10">
+                                <div class="icon-col">
+                                    <div class="m-auto">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
+                                            <i class="fa-regular fa-user text-purple"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-10">
+                                    <small class="text-uppercase text-white d-block s-12">Name</small>
+                                    <p class="h6 text-white"><?php echo $userdetails['fullname']; ?></p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-10">
+                                <div class="icon-col">
+                                    <div class="m-auto">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
+                                            <i class="fa-solid fa-phone text-purple"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-10">
+                                    <small class="text-uppercase d-block s-12 text-white">Mobile :</small>
+                                    <p class="h6 text-white"><?php echo $userdetails['mobile']; ?></p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-10">
+                                <div class="icon-col">
+                                    <div class="m-auto">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
+                                            <i class="fa-regular fa-envelope text-purple"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-10">
+                                    <small class="text-uppercase d-block s-12 text-white">Email</small>
+                                    <p class="h6 text-white"><?php echo $userdetails['email']; ?></p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-10">
+                                <div class="icon-col">
+                                    <div class="fbox-ico ico-16 m-auto">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
+                                            <i class="fa-regular fa-file text-purple"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-10">
+                                    <small class="text-uppercase d-block s-12 text-white">Loan Type</small>
+                                    <p class="h6 text-white">Personal Loan</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
+
+                            <div class="d-flex align-items-start">
+
+                                <div>
+                                    <i class="fa-solid fa-shield text-success"></i>
+                                </div>
+                                <p class="mb-0 ms-10 mt-0 h6 fw-normal">Your data is 256-bit encrypted and never shared
+                                    without your consent.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-2 card-left">
-
-
-                        <img src="<?= base_url('assets/images/img/valid-img.png') ?>" alt="Valid loan offer"
-                            class="desktop-image d-md-block d-none w-100 img-fluid">
-
-                        <img src="<?= base_url('assets/images/img/mobile-img.jpeg') ?>" alt="Valid loan offer"
-                            class="mobile-image d-md-none d-block w-100 img-fluid">
-
-
-                    </div>
-
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-8 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow rounded-1 p-0 overflow-hidden card-right">
+                <div class="col-12 col-md-12 col-lg-8 mb-15 mb-md-30 ps-0">
+                    <div class="block-holder form-condidates bg-white shadow p-0 overflow-hidden" style="border-radius:0 15px 15px 0;">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6 subscription-plan-card">
+                            <div class="col-12 col-md-6 col-lg-6 subscription-plan-card ps-0">
                                 <div class="subscription-card">
                                     <?php echo form_open('onlineprocess/checkoutDigital', array('id' => 'submitForm3', 'class' => '', 'novalidate' => 'novalidate')); ?>
                                     <input type="hidden" name="loantype" id="loantype"
@@ -205,103 +270,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-15 mb-md-30">
-                    <div class="mb-25">
-
-                        <img src="<?= base_url('assets/images/img/loan-amount.png') ?>" alt="" class="w-100">
-                    </div>
-                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5 rounded-1">
-
-                        <p class="text-uppercase fw-bold">Customer details</p>
-                        <div class="user-details-table mb-0">
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
-                                            <i class="fa-regular fa-user text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Name</small>
-                                    <p class="h6"><?php echo $userdetails['fullname']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
-                                            <i class="fa-solid fa-phone text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Mobile :</small>
-                                    <p class="h6"><?php echo $userdetails['mobile']; ?></p>
-                                </div>
-                            </div>
-                            <!-- <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
-                                            <span class="flaticon-user lh-1 text-purple"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Loan Amount :</small>
-                                    <p class="h6"><?php echo formatePriceIndia($userdetails['loanamount']); ?></p>
-                                </div>
-                            </div> -->
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
-                                            <i class="fa-regular fa-envelope text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Email</small>
-                                    <p class="h6"><?php echo $userdetails['email']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="fbox-ico ico-16 m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
-                                            <i class="fa-regular fa-file text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Loan Type</small>
-                                    <p class="h6">Personal Loan</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
-
-                            <div class="d-flex align-items-start">
-
-                                <div>
-                                    <i class="fa-solid fa-shield text-success"></i>
-                                </div>
-                                <p class="mb-0 ms-10 mt-0 h6 fw-normal">Your data is
-                                    256-bit encrypted and never
-                                    shared
-                                    without your consent.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
     </section>
     <!-- <section class="pt-40 pb-0">
         <div class="container">
@@ -353,7 +322,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
       </div>
     </div>
   </section>-->
-</main>
+
 
 <script type="text/javascript">
 $(document).ready(function() {

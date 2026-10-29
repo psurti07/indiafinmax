@@ -872,17 +872,17 @@ function initSlickCarousel() {
 
 	jQuery('.client_testimonials_slider').slick({
 		slidesToScroll: 1,
-		slidesToShow: 3,
+		slidesToShow: 2,
 		rows: 0,
 		margin:10,
-		arrows: false,
+		arrows: true,
 		prevArrow: '<button class="slick-prev"><i class="icon-chevron-left"></i></button>',
 		nextArrow: '<button class="slick-next"><i class="icon-chevron-right"></i></button>',
 		dots: false,
 		centerMode:true,
 		centerPadding:0,
 		infinite: true,
-		autoplay: false,
+		autoplay: true,
 		responsive: [{
 				breakpoint: 992,
 				settings: {

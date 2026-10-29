@@ -1459,3 +1459,67 @@ background: linear-gradient(180deg, #1C0338 0%, #4D0690 100%);
     margin-top: 0;
    } 
 }
+
+.about-card-col {
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-card {
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.vision-card {
+    background: #00183e;
+}
+
+.mission-card {
+    background: #20498b;
+}
+
+.values-card {
+    background: #497bc8;
+}
+
+.about-card .about-number {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.about-card h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+
+.about-card p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 0;
+}
+.box-hover{
+  background: #fff;
+}
+.box-hover:hover{
+  background: rgba(15, 36, 70, 1);
+}
+.box-hover:hover h6, .box-hover:hover p{
+  color:#fff !important;
+}

@@ -1,16 +1,16 @@
 	<!--=====footer-start=======-->
 	<footer class="footer footer-theme-1">
-	    <div class="pri-footer text-gray pt-35 pt-lg-50 pt-xxl-80 pb-35 pb-md-20">
+	    <div class="pri-footer text-gray pt-35 pt-lg-50 pt-xxl-80 pb-20 pb-md-20">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-35 mb-md-45 mb-lg-0">
 	                    <div class="finder-theme-1">
-	                        <img src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>" alt="indiafinmax"
+	                        <img src="<?php echo base_url('assets/images/logo/logo-light.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid" width="195">
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
-	                                <p>At Indiafinmax, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
+	                                <p class="text-white">At Indiafinmax, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
 	                            </div>
 
 	                            <ul class="social-networks no-bg d-flex flex-wrap">
@@ -47,42 +47,40 @@
 
 
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-15 mb-md-0">
-	                    <h5>Useful Links</h5>
+	                    <h5 class="text-white">Useful Links</h5>
 	                    <ul class="footer-links">
-	                        <li><a href="<?php echo site_url(); ?>">Home</a></li>
-	                        <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
-	                        <li><a href="<?php echo site_url('contact'); ?>">Contact</a></li>
-	                        <li><a href="<?php echo site_url('faqs'); ?>">FAQs</a></li>
-							<li><a href="#">Blog</a></li>
+	                        <li><a class="text-white" href="<?php echo site_url(); ?>">Home</a></li>
+	                        <li><a class="text-white" href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
+	                        <li><a class="text-white" href="<?php echo site_url('contact'); ?>">Contact</a></li>
+	                        <li><a class="text-white" href="<?php echo site_url('faqs'); ?>">FAQs</a></li>
 	                    </ul>
 	                </div>
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-15 mb-md-0">
-	                    <h5>Useful Links</h5>
+	                    <h5 class="text-white">Useful Links</h5>
 	                    <ul class="footer-links">
-	                        <li><a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a></li>
-							  <li><a href="<?php echo site_url('terms-conditions'); ?>">Terms &amp; Conditions</a></li>
-							  			  <li><a href="#">Refund Policy</a></li>
-											<li><a href="<?php echo site_url('disclaimer'); ?>">Disclaimer</a></li>
-	                        <li><a href="#">Terms of Use</a>
+	                        <li><a class="text-white" href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a></li>
+							<li><a class="text-white" href="<?php echo site_url('terms-conditions'); ?>">Terms &amp; Conditions</a></li>
+							<li><a class="text-white" href="#">Refund Policy</a></li>
+							<li><a class="text-white" href="<?php echo site_url('disclaimer'); ?>">Disclaimer</a></li>
 	                        </li>
 	                      
 	                    </ul>
 	                </div>
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-15 mb-md-0">
-	                    <h5>Contact Us</h5>
+	                    <h5 class="text-white">Contact Us</h5>
 	                    <ul class="contact-list">
 	                       
 	                        <li>
 	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Indiafinmax"
 	                            class="mb-20 img-fluid">
 
-	                            <span class="text ms-10"><?php echo COMPANY_ADDRESS; ?></span>
+	                            <span class="text ms-10 text-white"><?php echo COMPANY_ADDRESS; ?></span>
 	                        </li>
 	                        <li>
 	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid">
 
-	                            <span class="text ms-10"><a
+	                            <span class="text ms-10"><a class="text-white"
 	                                    href="tel:<?php echo COMPANY_MOBILE; ?>"><?php echo COMPANY_MOBILE; ?></a></span>
 	                        </li>
 	                        <li>
@@ -90,7 +88,7 @@
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a
-	                                    href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a></span>
+	                                    href="mailto:<?php echo COMPANY_EMAIL; ?>" class="text-white"><?php echo COMPANY_EMAIL; ?></a></span>
 	                        </li>
 	                    </ul>
 	                </div>
@@ -99,6 +97,7 @@
 	            </div>
 	        </div>
 	    </div>
+		<hr class="text-white">
 	    <div class="sec-footer pt-0 pb-25 py-md-20 py-lg-35">
 	        <div class="container">
 	            <div class="row align-items-center">
