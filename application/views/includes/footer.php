@@ -1,6 +1,6 @@
 	<!--=====footer-start=======-->
 	<footer class="footer footer-theme-1">
-	    <div class="pri-footer text-gray pt-35 pt-lg-50 pt-xxl-80 pb-20 pb-md-20">
+	    <div class="pri-footer text-gray pt-35 pt-lg-50 pt-xxl-80 pb-20 pb-md-0">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-35 mb-md-45 mb-lg-0">
@@ -71,20 +71,20 @@
 	                    <ul class="contact-list">
 	                       
 	                        <li>
-	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Indiafinmax"
+	                            <img src="<?php echo base_url('assets/images/icons/map.png'); ?>" alt="Indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10 text-white"><?php echo COMPANY_ADDRESS; ?></span>
 	                        </li>
 	                        <li>
-	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="indiafinmax"
+	                             <img src="<?php echo base_url('assets/images/icons/call.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a class="text-white"
 	                                    href="tel:<?php echo COMPANY_MOBILE; ?>"><?php echo COMPANY_MOBILE; ?></a></span>
 	                        </li>
 	                        <li>
-	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="indiafinmax"
+	                               <img src="<?php echo base_url('assets/images/icons/envelope.png'); ?>" alt="indiafinmax"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a
@@ -102,10 +102,10 @@
 	        <div class="container">
 	            <div class="row align-items-center">
 	                <div class="col-12 col-md-6 text-sm-start text-center">
-	                    <p class="small"><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?>. All rights reserved.</p>
+	                    <p class="small text-white"><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?>. All rights reserved.</p>
 	                </div>
 					<div class="col-12 col-md-6 text-sm-end text-center">
-	                    <p class="small"> Crafted with care in Surat, India.</p>
+	                    <p class="small text-white"> Crafted with care in Surat, India.</p>
 	                </div>
 	            </div>
 	        </div>

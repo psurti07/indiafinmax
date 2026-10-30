@@ -81,7 +81,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 m-auto">
-                 	<div class="block-holder form-condidates bg-white shadow rounded-1 card-right">  
+                 	<div class="block-holder form-condidates bg-white shadow rounded-1">  
                 <div class="text-center pb-30" style="margin:auto">
                   <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="200px">
                 </div>

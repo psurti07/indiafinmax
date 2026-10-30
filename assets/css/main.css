@@ -7139,7 +7139,7 @@ textarea.form-control.form-control-lg {
 
 .counters-block .subtext {
   font-weight: 500;
-  font-size: 14px !important;
+  font-size: 12px !important;
   line-height: 20px;
   display: block;
   color: #575E69;
@@ -9402,7 +9402,7 @@ textarea.form-control.form-control-lg {
 }
 
 .header-theme-1 {
-  /* background: #1C0338; */
+      background: #F3F7F7;
 }
 
 .header-theme-1+.subvisual-block,
@@ -9444,7 +9444,7 @@ textarea.form-control.form-control-lg {
 .header-theme-1 .nav-opener span,
 .header-theme-1 .nav-opener:after,
 .header-theme-1 .nav-opener:before {
-  background: #20ca6f;
+  background: #0B1B3A;
 }
 
 .header-theme-1 .nav-close:hover span,
@@ -9458,7 +9458,7 @@ textarea.form-control.form-control-lg {
 
 @media (max-width: 991.98px) {
   .header-theme-1 .nav-drop {
-    background: #203818;
+    background: #0B1B3A;
   }
 }
 
@@ -9473,7 +9473,7 @@ textarea.form-control.form-control-lg {
 }
 
 .header-theme-1 .navigation>li>a:not(.btn):hover {
-  color: #20ca6f !important;
+  color: #6ADFE3 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -9530,7 +9530,7 @@ textarea.form-control.form-control-lg {
 .sticky-header .header-theme-1 .nav-opener:not(:hover) span,
 .sticky-header .header-theme-1 .nav-opener:not(:hover):after,
 .sticky-header .header-theme-1 .nav-opener:not(:hover):before {
-  background: #20ca6f;
+  background: #0B1B3A;
 }
 
 .visual-theme-1 {
@@ -12626,7 +12626,7 @@ textarea.form-control.form-control-lg {
   justify-content: center;
   border-radius: 100%;
   position: relative;
-  background: #20ca6f;
+    background: #028A8E;
   margin: 0 10px 0 0;
   transition: 0.3s;
 }
@@ -13857,7 +13857,7 @@ textarea.form-control.form-control-lg {
 
 .form-condidates {
   background: #eff6f3;
-  border-radius: 15px;
+  border-radius: 15px !important;
   padding: 25px 20px;
 }
 
@@ -15044,7 +15044,7 @@ textarea.form-control.form-control-lg {
 
 .footer-theme-1 .footer-links li a:hover,
 .footer-theme-1 .social-networks li a:hover {
-  color: #20ca6f;
+  color: #6ADFE3 !important;
 }
 
 .header-theme-2 .nav-close span,
@@ -16150,7 +16150,7 @@ textarea.form-control.form-control-lg {
 
 @media (min-width: 992px) {
   .featured-joblix-block .section-header h2 {
-    margin-bottom: 30px;
+    margin-bottom: 8px;
   }
 }
 
@@ -22659,7 +22659,7 @@ textarea.form-control.form-control-lg {
 
 .visual-theme-5 .visual-textbox p {
   color: #575E69;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
 }
 
@@ -22677,8 +22677,10 @@ textarea.form-control.form-control-lg {
 
   .visual-theme-5 .visual-textbox .h1,
   .visual-theme-5 .visual-textbox h1 {
-    font-size: 48px;
-    line-height: 50px;
+          font-size: 53px;
+        line-height: 62px;
+        color: #00173B;
+
   }
 }
 
@@ -22709,11 +22711,11 @@ textarea.form-control.form-control-lg {
 
   .visual-theme-5 .visual-textbox .h1,
   .visual-theme-5 .visual-textbox h1 {
-    font-weight: 800;
-    line-height: 50.4px;
-    padding-bottom: 0;
-    font-size: 30px;
-    letter-spacing: -1.2px;
+           font-weight: 800;
+        line-height: 35.4px;
+        padding-bottom: 0;
+        font-size: 26px;
+        letter-spacing: -1.2px;
   }
 
 }
@@ -37747,7 +37749,7 @@ textarea.form-control.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 15px;
 }
 
 .section-theme-12.how-we-help-block .two-columns h2 {
@@ -50013,6 +50015,7 @@ textarea.form-control.form-control-lg {
   font-size: 36px;
   line-height: 45px;
   letter-spacing: -0.72px;
+  color: #00173B;
 }
 
 .how-we-help-block p {
@@ -50102,10 +50105,7 @@ textarea.form-control.form-control-lg {
   left: 0;
 }
 
-.about-section .section-header h2 span {
-  border-bottom: 3px solid #D0F7D6;
-}
-
+ 
 @media screen and (min-width:992px) {
   .header a.mobile-btn {
     display: none;
@@ -50213,6 +50213,7 @@ textarea.form-control.form-control-lg {
 .image-wrap {
   width: 32px;
   height: 32px;
+  border-radius: 6px;
 }
 
 .packages-block .fa-calendar-days {

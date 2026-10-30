@@ -118,7 +118,7 @@
     <!-- main container of all the page elements -->
     <div id="wrapper">
         <!--=====HEADER START=======-->
-        <header class="header header-theme-1 ">
+        <header class="header header-theme-1  header-top">
             <div class="container">
                 <div class="text-start">
                     <strong class="logo">

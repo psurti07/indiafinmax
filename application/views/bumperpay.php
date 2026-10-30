@@ -2,19 +2,20 @@
 $this->load->view('includes/header-offer');
 ?>
 
-<main class="jobplugin__main bg-light">
-    <div class="container">
+<main class="jobplugin__main">
+    <section class="bg-light-sky">
+  <div class="container">
         <div class="jobplugin__main-holder">
             <div class="jobplugin__container">
                 <div class="row">
                         <div class="jobplugin__settings-head text-center">
-                        <h5 class="fs-4">Purchase Plan To View Your Pre-Approved Loan Offers</h5>
+                        <h5 class="fs-4 text-navy">Purchase Plan To View Your Pre-Approved Loan Offers</h5>
                         <p class="jobplugin__settings-head__text pt-0">Instant Pre-Approval | Multiple NBFCs Offers |
                             100%
                             Paperless Process</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 mb-md-0 mb-15">
-                        <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
+                        <div class="block-holder bg-white shadow p-25 card-right-main-wrap">
 
                             <h6 class="jobplugin__text-secondary fs-6">Subscription Plan</h6>
                             <div class="jobplugin__settings-card bg-white border-0">
@@ -94,7 +95,7 @@ $this->load->view('includes/header-offer');
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
-                        <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
+                       <div class="block-holder bg-white shadow p-25 card-right-main-wrap">
                             <h6 class="jobplugin__text-secondary fs-6 mb-15">Please Fill Basic Detail</h6>
                             <?php
 							if ($this->session->flashdata('danger')): ?>
@@ -139,11 +140,11 @@ $this->load->view('includes/header-offer');
                                     <div class="help-block font-small-3"></div>
                                 </div>
                             </div>
-                            <div class="jobplugin__userbox-button">
+                        
                                 <button type="submit" id="form-submit1"
-                                    class="jobplugin__button large jobplugin__bg-primary hover:jobplugin__bg-secondary">Process
+                                    class="btn btn-green btn-sm w-100">Process
                                     to Pay</button>
-                            </div>
+                           
                             <?php echo form_close(); ?>
                             <p class="jobplugin__userbox-textinfo text-start"><small class="fa-small">
                                     By submitting the form & proceeding, you agree to the <a
@@ -154,9 +155,19 @@ $this->load->view('includes/header-offer');
                                 </small></p>
                         </div>
                     </div>
-                    <div class="pt-80 section-theme-9">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<section class="py-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                  <div class="section-theme-9">
                         <header class="section-header">
-                            <h4 class="text-center">Our NBFC Partners</h4>
+                            <h4 class="text-center text-navy">Our NBFC Partners</h4>
                             <p class="text-center">Your Bridge to Smarter Financial Opportunities</p>
                         </header>
                         <div class="jobplugin__slider jobplugin__slider--four-items">
@@ -173,10 +184,11 @@ $this->load->view('includes/header-offer');
                             <?php } ?>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
+</section>
+  
 </main>
 
 <?php

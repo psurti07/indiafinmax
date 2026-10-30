@@ -9,151 +9,272 @@ $this->load->view('includes/header-apply.php');
 //}
 $eligibilityamtindia = formatePriceIndia($eligibilityamt);
 ?>
-<section class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-80 pb-xl-80 pb-md-80">
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4 mb-15 mb-md-30">
-                    
-                    <div class="card shadow border-0 p-25 pt-md-50 mt-md-0 mt-5" style="background:rgba(0, 23, 59, 1); border-radius:15px 0 0 15px;">
+<section
+    class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-80 pb-xl-80 pb-md-80 eligible-section">
+    <div class="container">
 
-                        <div class="subhead mb-0 pb-15">
-                            <span class='px-10 h6 rounded py-5 d-inline-block offer-valid-content'><i
-                                    class="fa fa-suitcase me-10"></i><?php echo $userdetails['loanname']; ?></span>
-                                    
-                            <h5 class="mb-10 text-white">Great news, <?php echo $userdetails['fullname']; ?>! 🎉</h5>
-                            <p class="text-white small">Your <strong class="text-success">Rs.
-                                    <?php echo $eligibilityamtindia; ?> </strong> pre-approved loan is waiting.
-                                Purchase
-                                a subscription to proceed.</p>
-                            <span class='px-10 h6 rounded py-5 d-inline-block offer-valid-content'><i
-                                    class="fa-regular fa-clock me-10"></i>Valid
-                                till 12 AM tonight</span>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 p-md-0 order-lg-1 order-2">
 
-                                 <p class="text-uppercase sub-title d-block text-white small pt-10">Desired Loan Amount</p>
+                <div class="card shadow border-0 p-25 bg-navy h-100 card-left-wrapper">
+                    <span class="px-10 h6 rounded py-5 d-inline-block offer-valid-content border-0 text-white mb-15"><i
+                            class="fa fa-suitcase me-10"></i><?php echo $userdetails['loanname']; ?></span>
 
-                        <h5 class=" mb-0 font-weight-bold text-white pb-10">₹
-                            <?php echo formatePriceIndia($userdetails['loanamount']); ?> </h5>
-                            <p class="mb-3 text-white" style="font-size: 15px;">Tenure: up to 60 months · ROI from 11%*</p>
-                        </div>
+                    <h4 class="mb-10 text-white">Great news, <?php echo $userdetails['fullname']; ?>! 🎉</h4>
+                    <p class="text-white small">Your <strong class="text-success">Rs.
+                            <?php echo $eligibilityamtindia; ?> </strong> pre-approved loan is waiting.
+                        Purchase
+                        a subscription to proceed.</p>
+                    <span class="px-10 h6 rounded py-5 d-inline-block title-badge d-inline-block fa-xs lh-lg mb-15"><i
+                            class="fa-regular fa-clock me-10"></i>Valid
+                        till 12 AM tonight</span>
+                    <h6 class="text-uppercase sub-title mb-1 d-block pb-10 text-white">Desired Loan Amount</h6>
 
+                    <h4 class=" mb-0 font-weight-bold text-white pb-10">₹
+                        <?php echo formatePriceIndia($userdetails['loanamount']); ?> </h4>
+                    <div class="d-flex justify-content-start">
+                        <p class="mb-3 text-white border px-5 py-5 rounded-pill d-inline-block fa-xs lh-lg me-10">
+                            Tenure: up to 60 months
+                        </p>
 
-                        <p class="text-uppercase fw-bold text-white">Customer details</p>
-                        <div class="user-details-table mb-0 pb-10">
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-user text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase text-white d-block s-12">Name</small>
-                                    <p class="h6 text-white"><?php echo $userdetails['fullname']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-solid fa-phone text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Mobile :</small>
-                                    <p class="h6 text-white"><?php echo $userdetails['mobile']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-envelope text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Email</small>
-                                    <p class="h6 text-white"><?php echo $userdetails['email']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="fbox-ico ico-16 m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-file text-purple"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Loan Type</small>
-                                    <p class="h6 text-white">Personal Loan</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
-
-                            <div class="d-flex align-items-start">
-
-                                <div>
-                                    <i class="fa-solid fa-shield text-success"></i>
-                                </div>
-                                <p class="mb-0 ms-10 mt-0 h6 fw-normal">Your data is 256-bit encrypted and never shared
-                                    without your consent.</p>
+                        <div class="text-hold">
+                            <div class="tag-list mb-20">
+                                <span
+                                    class="tag-wrap text-dark text-uppercase title-badge d-inline-block fa-xs lh-lg">ROI
+                                    from 11%*</span>
                             </div>
                         </div>
                     </div>
+
+                    <div class="mb-10">
+
+                        <h6 class="text-uppercase fw-bold text-white d-block">Customer details</h6>
+                    </div>
+
+                    <div class="user-details-table mb-0 pb-10">
+                        <div class="d-flex mb-10">
+                            <div class="icon-col">
+                                <div class="m-auto">
+                                    <div class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                        <i class="fa-regular fa-user text-navy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ms-10">
+                                <h6 class="text-uppercase text-white d-block s-12">Name</h6>
+                                <p class="h6 text-white"><?php echo $userdetails['fullname']; ?></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-10">
+                            <div class="icon-col">
+                                <div class="m-auto">
+                                    <div class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                        <i class="fa-solid fa-phone text-navy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ms-10">
+                                <h6 class="text-uppercase d-block s-12 text-white">Mobile :</h6>
+                                <p class="h6 text-white"><?php echo $userdetails['mobile']; ?></p>
+                            </div>
+                        </div>
+                        <!-- <div class="d-flex mb-10">
+                                <div class="icon-col">
+                                    <div class="m-auto">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                            <span class="flaticon-user lh-1 text-purple"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ms-10">
+                                    <small class="text-uppercase d-block s-12">Loan Amount :</small>
+                                    <p class="h6"><?php echo formatePriceIndia($userdetails['loanamount']); ?></p>
+                                </div>
+                            </div> -->
+                        <div class="d-flex mb-10">
+                            <div class="icon-col">
+                                <div class="m-auto">
+                                    <div class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                        <i class="fa-regular fa-envelope text-navy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ms-10">
+                                <h6 class="text-uppercase d-block s-12 text-white">Email</h6>
+                                <p class="h6 text-white"><?php echo $userdetails['email']; ?></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-10">
+                            <div class="icon-col">
+                                <div class="fbox-ico ico-16 m-auto">
+                                    <div class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                        <i class="fa-regular fa-file text-navy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ms-10">
+                                <h6 class="text-uppercase d-block s-12 text-white">Loan Type</h6>
+                                <p class="h6 text-white">Personal Loan</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="otp-velidation-text-wrap border bg-light-gray p-10">
+
+                        <div class="d-flex align-items-start">
+
+                            <div>
+                                <i class="fa-solid fa-shield text-success"></i>
+                            </div>
+                            <p class="mb-0 ms-10 mt-0 h6 fw-normal">Your data is
+                                256-bit encrypted and never
+                                shared
+                                without your consent.</p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-8 mb-15 mb-md-30 ps-0">
-                    <div class="block-holder form-condidates bg-white shadow p-0 overflow-hidden" style="border-radius:0 15px 15px 0;">
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6 subscription-plan-card ps-0">
-                                <div class="subscription-card">
-                                    <?php echo form_open('onlineprocess/checkoutDigital', array('id' => 'submitForm3', 'class' => '', 'novalidate' => 'novalidate')); ?>
-                                    <input type="hidden" name="loantype" id="loantype"
-                                        value="<?php echo $userdetails['loantype']; ?>" class="form-control" required>
-                                    <input type="hidden" name="applyid" value="<?php echo $userdetails['applyid']; ?>"
-                                        class="form-control" required>
-                                    <input type="hidden" name="userid" value="<?php echo $userdetails['userid']; ?>"
-                                        class="form-control" required>
-                                    <input type="hidden" name="fullname" id="fullname"
-                                        value="<?php echo $userdetails['fullname']; ?>" class="form-control" required>
-                                    <input type="hidden" name="mobile" id="mobile"
-                                        value="<?php echo $userdetails['mobile']; ?>" class="form-control" required>
-                                    <input type="hidden" name="email" id="email"
-                                        value="<?php echo $userdetails['email']; ?>" class="form-control" required>
-                                    <input type="hidden" name="cardtype" value="<?php echo $userdetails['cardtype']; ?>"
-                                        class="form-control" required>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-8 p-md-0 order-lg-2 order-1">
+                <div class="block-holder form-condidates bg-white shadow rounded-0 column-right-wrapper h-100 p-md-60 p-40">
+                    <div class="row subscription-price-card border">
+                        <div class="col-12 col-md-6 col-lg-6 subscription-plan-card p-0 order-lg-1 order-2">
+                            <div class="subscription-card">
+                                <?php echo form_open('onlineprocess/checkoutDigital', array('id' => 'submitForm3', 'class' => '', 'novalidate' => 'novalidate')); ?>
+                                <input type="hidden" name="loantype" id="loantype"
+                                    value="<?php echo $userdetails['loantype']; ?>" class="form-control" required>
+                                <input type="hidden" name="applyid" value="<?php echo $userdetails['applyid']; ?>"
+                                    class="form-control" required>
+                                <input type="hidden" name="userid" value="<?php echo $userdetails['userid']; ?>"
+                                    class="form-control" required>
+                                <input type="hidden" name="fullname" id="fullname"
+                                    value="<?php echo $userdetails['fullname']; ?>" class="form-control" required>
+                                <input type="hidden" name="mobile" id="mobile"
+                                    value="<?php echo $userdetails['mobile']; ?>" class="form-control" required>
+                                <input type="hidden" name="email" id="email"
+                                    value="<?php echo $userdetails['email']; ?>" class="form-control" required>
+                                <input type="hidden" name="cardtype" value="<?php echo $userdetails['cardtype']; ?>"
+                                    class="form-control" required>
 
 
-                                    <div class="box-inner p-30">
-                                        <div class="d-flex align-items-start justify-content-between mb-20">
-                                            <div class="plan-details border-0 p-0">
-                                                <span class="fw-bold text-uppercase mb-10 text-success">Premium
-                                                    Subscription</span>
-                                                <h6 class="mb-0">Limited-time offer</h6>
-                                            </div>
-                                            <div>
+                                <div class="box-inner p-25">
+                                    <div class="d-flex align-items-start justify-content-between mb-0">
+                                        <div class="plan-details border-0 p-0">
+                                            <h6 class="fw-bold text-uppercase mb-10 text-success">Premium
+                                                Subscription</h6>
 
-                                                <?php if ($productdata['inOffer'] == 1) { ?>
-                                                <p class="mb-0 bg-success text-white px-10 py-5 h6 rounded-pill pb-0">
-                                                    <?php echo calPercentage($productdata['amount'], $productdata['offeramount']); ?>
-                                                    OFF</p>
-                                                <?php } ?>
+                                        </div>
+                                        <div>
 
+                                            <?php if ($productdata['inOffer'] == 1) { ?>
+                                            <p class="mb-0 bg-success text-white px-10 py-5 h6 rounded-pill pb-0">
+                                                <?php echo calPercentage($productdata['amount'], $productdata['offeramount']); ?>
+                                                OFF</p>
+                                            <?php } ?>
+
+                                        </div>
+                                    </div>
+                                    <div class="mb-20">
+
+                                        <h4 class="mb-0 text-navy">Limited-time offer</h4>
+                                    </div>
+                                    <div class="box-inner  border-bottom pb-20">
+                                        <h6 class="fs-6 mb-20 text-navy"> Subscription Benefits</h6>
+                                        <ul class="list-unstyled features-list mb-0">
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">Loan Process in Multiple
+                                                    NBFCs</span>
+
+                                            </li>
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">100% Online Financial
+                                                    Consultation</span>
+                                            </li>
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">Access Personalized
+                                                    Tracking Portal</span>
+                                            </li>
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">Dedicated Loan Expert
+                                                    Assigned</span>
+                                            </li>
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">Subscription Validity: 9
+                                                    Months</span>
+                                            </li>
+                                            <li class="ps-0 d-flex mb-10 align-items-center">
+                                                <div class="feature-img"> <i
+                                                        class="far fa-check-circle text-success"></i>
+                                                </div><span class="ms-10 text-navy">Loan Processing Time: 48
+                                                    Hours</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="section-theme-6 pt-20 pb-0">
+                                        <div class="counters-block pb-0">
+                                            <div class="row justify-content-center justify-content-md-between gx-10">
+                                                <div class="col-lg-6 col-6">
+                                                    <div class="counter-box d-block text-center mb-0">
+                                                        <div class="icon-wrap mb-10 justify-content-center">
+                                                            <i class="fa-regular fa-user text-success"></i>
+                                                        </div>
+                                                        <div class="counter-stats">
+                                                            <strong class="numbers h4 mb-5 text-black">
+                                                                <span data-purecounter-duration="1"
+                                                                    data-purecounter-start="0" data-purecounter-end="10"
+                                                                    data-purecounter-once="true"
+                                                                    class="purecounter">10</span>k+
+                                                            </strong>
+                                                            <span class="subtext text-uppercase">Satisfied
+                                                                Customers</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <div class="counter-box d-block text-center mb-0">
+                                                        <div class="icon-wrap mb-10 justify-content-center">
+                                                            <i class="fa-solid fa-wallet text-success"></i>
+                                                        </div>
+
+                                                        <div class="counter-stats">
+                                                            <strong class="numbers h4 mb-5 text-black">
+                                                                <span data-purecounter-duration="1"
+                                                                    data-purecounter-start="0" data-purecounter-end="12"
+                                                                    data-purecounter-once="true"
+                                                                    class="purecounter">₹12</span>cr+
+                                                            </strong>
+                                                            <span class="subtext text-uppercase">Loan Disbursed</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        <?php
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 p-25 border-start subscription-plan-card order-lg-2 order-1">
+
+                            <?php
                         if ($productdata['inOffer'] == 1) {
-                          echo '<div class="d-flex align-items-end justify-content-center"><h5><del class="text-danger pe-10">&#8377; ' . formatePrice($productdata['amount']) . '</del></h5>';
+                          echo '<div class="d-flex align-items-start justify-content-start flex-column"><h5 class="mb-0"><del class="text-danger pe-10">&#8377; ' . formatePrice($productdata['amount']) . '</del></h5>';
                           echo '<h3><span class="text-success"><strong> &#8377; ' . formatePrice($productdata['offeramount']) . '/-</strong> </span></h3> </div>';
                           $subtotal = $productdata['offeramount'];
                         } else {
@@ -161,118 +282,37 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                           $subtotal = $productdata['amount'];
                         }
                         ?>
-                                        <p class="text-center">One-time fee, GST extra</p>
-                                        <ul class="list-unstyled features-list pt-20">
+                            <p class="text-start fa-xs border-dashed-custom pb-30 mb-0">One-time fee, GST extra
+                            </p>
+                            <ul class="list-unstyled features-list pt-20 mb-20">
 
-                                            <li class="d-flex justify-content-between mb-10"><span>Amount </span><span
-                                                    class="fw-bold"><?php echo formatePriceIndia($subtotal); ?></span>
-                                            </li>
-                                            <li class="d-flex justify-content-between mb-10 border-bottom pb-10">
-                                                <span>GST (18%) :</span> <span class="fw-bold"><?php $gst = $subtotal * 0.18;
+                                <li class="d-flex justify-content-between mb-10"><span>Amount </span><span
+                                        class="fw-bold"><?php echo formatePriceIndia($subtotal); ?></span>
+                                </li>
+                                <li class="d-flex justify-content-between mb-10 border-dashed-custom  pb-10">
+                                    <span>GST (18%) :</span> <span class="fw-bold"><?php $gst = $subtotal * 0.18;
                           echo formatePriceIndia($gst); ?></span>
-                                            </li>
-                                            <li class="d-flex justify-content-between mb-10"><span class="fw-bold">Grand
-                                                    Total : </span><span class="fw-bold"><?php $grandtotal = $subtotal + $gst;
+                                </li>
+                                <li class="d-flex justify-content-between mb-10"><span class="fw-bold text-navy">Grand
+                                        Total : </span><span class="fw-bold text-navy"><?php $grandtotal = $subtotal + $gst;
                           echo formatePriceIndia($grandtotal); ?></span></li>
-                                        </ul>
-                                        <button type="submit" class="btn btn-green btn-sm w-100" id="formsubmit3"><span
-                                                class="btn-text">Buy Now <i
-                                                    class="fa-solid fa-arrow-right"></i></span></button>
-                                        <p class="h6 fw-normal mt-15 mb-0 text-center">Secured by 256-bit SSL · UPI /
-                                            Cards / Net
-                                            Banking</p>
-                                    </div>
-
-                                    <?php echo form_close(); ?>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 p-30 pt-md-30 pt-0 border-start">
-                                <div class="box-inner pt-md-30 pt-0 pb-15 border-bottom">
-                                    <h6 class="fs-6 mb-20 text-dark"> Subscription Benefits</h6>
-                                    <ul class="list-unstyled features-list mb-0">
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">Loan Process in Multiple NBFCs</span>
-
-                                        </li>
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">100% Online Financial
-                                                Consultation</span>
-                                        </li>
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">Access Personalized
-                                                Tracking Portal</span>
-                                        </li>
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">Dedicated Loan Expert
-                                                Assigned</span>
-                                        </li>
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">Subscription Validity: 9
-                                                Months</span>
-                                        </li>
-                                        <li class="ps-0 d-flex mb-10">
-                                            <div class="feature-img"> <i class="fa-solid fa-check text-success"></i>
-                                            </div><span class="ms-15">Loan Processing Time: 48
-                                                Hours</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="section-theme-6 pt-20 pb-0">
-                                    <div class="counters-block pb-0">
-                                        <div class="row justify-content-center justify-content-md-between gx-10">
-                                            <div class="col-lg-6 col-6">
-                                                <div class="counter-box d-block text-center mb-0">
-                                                    <div class="icon-wrap mb-10 justify-content-center">
-                                                        <i class="fa-regular fa-user text-success"></i>
-                                                    </div>
-                                                    <div class="counter-stats">
-                                                        <strong class="numbers h4 mb-5 text-black">
-                                                            <span data-purecounter-duration="1"
-                                                                data-purecounter-start="0" data-purecounter-end="10"
-                                                                data-purecounter-once="true"
-                                                                class="purecounter">10</span>k+
-                                                        </strong>
-                                                        <span class="subtext text-uppercase">Satisfied
-                                                            Customers</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-6">
-                                                <div class="counter-box d-block text-center mb-0">
-                                                    <div class="icon-wrap mb-10 justify-content-center">
-                                                        <i class="fa-solid fa-wallet text-success"></i>
-                                                    </div>
-
-                                                    <div class="counter-stats">
-                                                        <strong class="numbers h4 mb-5 text-black">
-                                                            <span data-purecounter-duration="1"
-                                                                data-purecounter-start="0" data-purecounter-end="12"
-                                                                data-purecounter-once="true"
-                                                                class="purecounter">₹12</span>cr+
-                                                        </strong>
-                                                        <span class="subtext text-uppercase">Loan Disbursed</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
+                            </ul>
+                            <button type="submit" class="btn btn-green btn-sm w-100" id="formsubmit3"><span
+                                    class="btn-text">Buy Now <i class="fa-solid fa-arrow-right"></i></span></button>
+                            <p class="h6 fw-normal mt-15 mb-0 text-center">Secured by 256-bit SSL · UPI /
+                                Cards / Net
+                                Banking</p>
                         </div>
+
+                        <?php echo form_close(); ?>
+
                     </div>
+
                 </div>
-                
-    </section>
-    <!-- <section class="pt-40 pb-0">
+            </div>
+
+</section>
+<!-- <section class="pt-40 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 offset-lg-4 d-block d-sm-none d-md-none d-lg-none">
@@ -295,7 +335,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
             </div>
         </div>
     </section> -->
-    <!--<section class="section section-theme-10 latest-candidates-block bg-light-sky pt-30 pt-md-40 pt-lg-50 pt-xxl-50 pb-30 pb-md-50 pb-lg-60 pb-xxl-60">
+<!--<section class="section section-theme-10 latest-candidates-block bg-light-sky pt-30 pt-md-40 pt-lg-50 pt-xxl-50 pb-30 pb-md-50 pb-lg-60 pb-xxl-60">
     <div class="container">
       <div class="row mb-30 mb-md-40">
         <div class="col-12">

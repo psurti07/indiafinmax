@@ -2,31 +2,48 @@
 $this->load->view('includes/header-apply.php');
 ?>
 
-    <section class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-70 pb-xl-80 pb-md-80">
-        <div class="container">
+<section
+    class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-70 pb-xl-80 pb-md-80 eligible-section">
+    <div class="container">
+        <div class="card-right-main">
             <div class="row justify-content-center">
-            
-                <div class="col-12 col-md-6 col-lg-4 pe-0">
-                    <div class="card shadow border-0 p-25 pt-md-50 mt-md-0 mt-5" style="background:rgba(0, 23, 59, 1); border-radius:15px 0 0 15px;">
-                        <span class="text-uppercase sub-title mb-1 d-block pb-10 text-white">Desired Loan Amount</span>
+                <div class="col-12 col-md-6 col-lg-4 p-md-0 order-lg-1 order-2">
+                    <div class="card shadow border-0 p-25 bg-navy h-100 card-left-wrapper">
+                        <h6 class="text-uppercase sub-title mb-1 d-block pb-10 text-white">Desired Loan Amount</h6>
 
-                        <h2 class=" mb-0 font-weight-bold text-white pb-10">₹
-                            <?php echo formatePriceIndia($userdetails['loanamount']); ?> </h2>
-                        <p class="mb-3 text-white" style="font-size: 15px;">Tenure: up to 60 months · ROI from 11%*</p>
-                        <p class="text-uppercase fw-bold text-white">Customer details</p>
-                        
+                        <h4 class=" mb-0 font-weight-bold text-white pb-10">₹
+                            <?php echo formatePriceIndia($userdetails['loanamount']); ?> </h4>
+                        <div class="d-flex justify-content-start">
+                            <p class="mb-3 text-white border px-5 py-5 rounded-pill d-inline-block fa-xs lh-lg me-10">
+                                Tenure: up to 60 months
+                            </p>
+
+                            <div class="text-hold">
+                                <div class="tag-list mb-20">
+                                    <span
+                                        class="tag-wrap text-dark text-uppercase title-badge d-inline-block fa-xs lh-lg">ROI
+                                        from 11%*</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-10">
+
+                            <h6 class="text-uppercase fw-bold text-white d-block">Customer details</h6>
+                        </div>
+
                         <div class="user-details-table mb-0 pb-10">
                             <div class="d-flex mb-10">
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-user text-purple"></i>
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                            <i class="fa-regular fa-user text-navy"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase text-white d-block s-12">Name</small>
+                                    <h6 class="text-uppercase text-white d-block s-12">Name</h6>
                                     <p class="h6 text-white"><?php echo $userdetails['fullname']; ?></p>
                                 </div>
                             </div>
@@ -34,13 +51,13 @@ $this->load->view('includes/header-apply.php');
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-solid fa-phone text-purple"></i>
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                            <i class="fa-solid fa-phone text-navy"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Mobile :</small>
+                                    <h6 class="text-uppercase d-block s-12 text-white">Mobile :</h6>
                                     <p class="h6 text-white"><?php echo $userdetails['mobile']; ?></p>
                                 </div>
                             </div>
@@ -62,13 +79,13 @@ $this->load->view('includes/header-apply.php');
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-envelope text-purple"></i>
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                            <i class="fa-regular fa-envelope text-navy"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Email</small>
+                                    <h6 class="text-uppercase d-block s-12 text-white">Email</h6>
                                     <p class="h6 text-white"><?php echo $userdetails['email']; ?></p>
                                 </div>
                             </div>
@@ -76,13 +93,13 @@ $this->load->view('includes/header-apply.php');
                                 <div class="icon-col">
                                     <div class="fbox-ico ico-16 m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-white image-wrap rounded-1">
-                                            <i class="fa-regular fa-file text-purple"></i>
+                                            class="d-flex align-items-center justify-content-center bg-white image-wrap">
+                                            <i class="fa-regular fa-file text-navy"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12 text-white">Loan Type</small>
+                                    <h6 class="text-uppercase d-block s-12 text-white">Loan Type</h6>
                                     <p class="h6 text-white">Personal Loan</p>
                                 </div>
                             </div>
@@ -104,21 +121,15 @@ $this->load->view('includes/header-apply.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-8 mb-15 mb-md-30 ps-0">
-                    <div class="block-holder form-condidates bg-white shadow" style="border-radius:0 15px 15px 0;">
-                        <div class="d-flex">
-                            <div>
-                                <div class="categories-image">
-                                    <span class="icon">
-                                        <i class="fa fa-briefcase fs-5 text-white"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="subhead ms-15">
-                                <h5 class="mb-5 text-dark"><?php echo $userdetails['loanname']; ?></h5>
-                                <p class="mb-0">Get pre-approved offers instantly — just fill in your details.</p>
-                            </div>
+                <div class="col-12 col-md-6 col-lg-8 p-md-0 order-lg-2 order-1">
+                    <div class="block-holder form-condidates bg-white shadow rounded-0 column-right-wrapper">
+
+
+                        <div class="subhead ms-15 text-center">
+                            <h4 class="mb-5 text-navy"><?php echo $userdetails['loanname']; ?></h4>
+                            <p class="mb-0">Get pre-approved offers instantly — just fill in your details.</p>
                         </div>
+
                         <?php echo form_open('onlineprocess/userApply', array('id' => 'submitForm1', 'class' => '', 'novalidate' => 'novalidate')); ?>
                         <div class="row">
                             <input type="hidden" name="applyid" value="<?php echo $userdetails['applyid']; ?>"
@@ -128,7 +139,7 @@ $this->load->view('includes/header-apply.php');
                             <input type="hidden" name="cardtype" value="<?php echo $userdetails['cardtype']; ?>"
                                 class="form-control" required>
 
-                            <div class="form-group col-12 col-lg-6 mb-15">
+                            <div class="form-group col-12 col-lg-12 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">CIBIL Score</label>
                                 <select class="form-select" id="cibilscore" name="cibilscore" required>
                                     <option value="">CIBIL Score *</option>
@@ -142,21 +153,21 @@ $this->load->view('includes/header-apply.php');
                                 <div class="help-block font-small-3"></div>
                             </div>
 
-                            <div class="form-group col-12 col-lg-6 mb-15">
+                            <div class="form-group col-12 col-lg-4 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">Monthly Income (₹)</label>
                                 <input class="form-control" type="text" id="monincome" name="monincome"
                                     placeholder="Monthly Income *" required inputmode="numeric">
                                 <div class="help-block font-small-3"></div>
                             </div>
 
-                            <div class="form-group col-12 col-lg-6 mb-15">
+                            <div class="form-group col-12 col-lg-4 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">Current Monthly EMI (₹)</label>
                                 <input class="form-control" type="text" id="monemi" name="monemi"
                                     placeholder="Current Monthly EMI *" required inputmode="numeric">
                                 <div class="help-block font-small-3"></div>
                             </div>
 
-                            <div class="form-group col-12 col-lg-6 mb-15">
+                            <div class="form-group col-12 col-lg-4 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">Loan Purpose</label>
                                 <select class="form-select" id="loanpurpose" name="loanpurpose" required>
                                     <option value="">Select Loan Purpose *</option>
@@ -233,10 +244,13 @@ $this->load->view('includes/header-apply.php');
                         <?php echo form_close(); ?>
                     </div>
                 </div>
+
             </div>
+
         </div>
-        </div>
-    </section>
+    </div>
+    </div>
+</section>
 
 
 <script type="text/javascript">

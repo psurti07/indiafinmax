@@ -2,44 +2,151 @@
 $this->load->view('includes/header-apply.php');
 ?>
 
-<section class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-80 pb-xl-80 pb-md-80">
+<section
+    class="visual-block visual-theme-5 hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-80 pb-xl-80 pb-md-80 border-bottom">
     <div class="container">
-        <div class="row justify-content-between align-items-end">
-            <div class="col-12 col-md-4 col-lg-4 col-xl-5 order-2">
-                <div class="me-25">
-                    <div class="visual-textbox pt-0">
-                        <h1 class="" style="line-height: 1.3;">Automated wealth allocation at <span
-                                class="text-success">IndiaFinMax</span> <br></h1>
-                        <p class="">Unlock smart tools and insights to manage your money, grow your savings and spend
-                            with confidence.
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 order-2">
+                <div class="me-lg-25 me-0">
+                    <div class="visual-textbox pt-0 mb-20">
+                        <div class="section-theme-6 pt-10 pb-0">
+                            <div class="counters-block pb-0">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-7 col-md-6 col-sm-5 ms-0">
+                                            <div
+                                                class="row bg-white py-5 border rounded-pill align-items-center mb-15 g-2">
+                                                <div class="col-lg-4 col-md-3 col-5">
+                                                    <div class="box-agent">
+                                                        <ul class="agent-img-list d-flex ps-0 list-unstyled mb-0">
+                                                            <li class="agent-img-item">
+                                                                <img src="<?php echo base_url('assets/images/Client-1.png'); ?>"
+                                                                    alt="image" class="me-10">
+                                                            </li>
+                                                            <li class="agent-img-item">
+                                                                <img src="<?php echo base_url('assets/images/Client-2.png'); ?>"
+                                                                    alt="image" class="me-10">
+                                                            </li>
+                                                            <li class="agent-img-item">
+                                                                <img src="<?php echo base_url('assets/images/client-3.png'); ?>"
+                                                                    alt="image" class="me-10">
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-lg-8 col-md-9 col-7 p-0">
+                                                    <p class="mb-0 fa-xs text-navy fw-bold">5,000+ happy clients</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Automated wealth allocation at <br><span class="text-success">IndiaFinMax</span>
+                        </h1>
+                        <p>Unlock smart tools and insights to manage your money, grow your savings and spend with
+                            confidence.
                         </p>
-                        <ul class="d-flex list-unstyled d-flex align-items-center mb-7 align-middle flex-sm-nowrap flex-wrap justify-content-between">
-                        <li class="text-success" style="font-size: 16px;"><i class="fa fa-check-circle"></i>&nbsp;No credit card required</li>
-                        <li class="text-success" style="font-size: 16px;"><i class="fa fa-check-circle"></i>&nbsp;7-days free trial</li>
-                        <li class="text-success" style="font-size: 16px;"><i class="fa fa-check-circle"></i>&nbsp;Instant setup</li>
-                    </ul>
+                        <ul
+                            class="d-flex list-unstyled d-flex align-items-center mb-7 align-middle flex-sm-nowrap flex-wrap justify-content-between">
+                            <li class="text-success"><i class="fa fa-check-circle"></i>&nbsp;No credit card required
+                            </li>
+                            <li class="text-success"><i class="fa fa-check-circle"></i>&nbsp;7-days free trial</li>
+                            <li class="text-success"><i class="fa fa-check-circle"></i>&nbsp;Instant setup</li>
+                        </ul>
+
+                    </div>
+                    <div class="row process-boxes justify-content-center g-20">
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="p-15 border rounded h-100 card-main shadow-sm card-right-main-wrap">
+                                <div class="text-start text-decoration-none d-flex flex-column">
+                                    <div class="icon mt-0 mb-20">
+                                        <i class="fas fa-rupee-sign text-success"></i>
+                                    </div>
+                                    <h5 class="text-navy mb-0">Loan up to</h5>
+                                    <p class="text-dark mb-0">Rs.10 Lakhs
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="p-15 border rounded h-100 card-main shadow-sm card-right-main-wrap">
+                                <div class="text-start text-decoration-none d-flex flex-column">
+                                    <div class="icon mt-0 mb-20">
+                                        <i class="fas fa-bolt text-success"></i>
+                                    </div>
+                                    <h5 class="text-navy mb-0">Process</h5>
+                                    <p class="text-dark mb-0">100% Online</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="p-15 border rounded h-100 card-main shadow-sm card-right-main-wrap">
+                                <div class="text-start text-decoration-none d-flex flex-column">
+                                    <div class="icon mt-0 mb-20">
+                                        <i class="fas fa-building text-success"></i>
+                                    </div>
+                                    <h5 class="text-navy mb-0">Access to</h5>
+                                    <p class="text-dark mb-0">Multiple NBFCs
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="p-15 border rounded h-100 card-main shadow-sm card-right-main-wrap">
+                                <a href="#" class="text-start text-decoration-none d-flex flex-column">
+                                    <div class="icon mt-0 mb-20">
+                                        <i class="fas fa-percent text-success"></i>
+                                    </div>
+                                    <h5 class="text-navy mb-0">Options</h5>
+                                    <p class="text-dark mb-0">Easy EMI
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 col-lg-8 col-xl-7 order-md-2 order-1">
-                <div class="row">
-                    <div class="col-md-6" style="background:rgba(0, 23, 59, 1); border-radius:10px 0 0 10px">
-                        <div class="section-header justify-content-between mb-0 d-flex h-100 align-items-center">
-                            <h5 class="text-white fs-3" style="line-height: 1.3;">Get Instant Credit up to  <span class="text-success">₹10 Lakhs</span> in minutes </h5>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 order-md-2 order-1 card-right-main">
+                <div class="row landing-form-main-wrap">
+                    <div class="col-lg-6 col-md-12 p-0">
+
+                        <div
+                            class="card-left-wrapper bg-navy h-100 p-30 d-flex align-items-start flex-column justify-content-center">
+                            <div class="text-hold">
+                                <div class="tag-list mb-20">
+                                    <span class="tag-wrap text-dark text-uppercase title-badge">Our Process</span>
+                                </div>
+                            </div>
+                            <div class="section-header mb-0 ms-0">
+
+                                <h4 class="text-white fs-4 mb-0">Get Instant Credit up to <span class="text-success">₹10
+                                        Lakhs</span> in minutes </h4>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12 bg-white">
                         <div class="account-box mb-0">
                             <?php if ($processstep == 'step1') { ?>
                             <div class="text-dark text-dark ps-10 pe-10">
-                                
+
                                 <?php echo form_open('onlineprocess/sendotpCode', array('id' => 'submitForm1', 'class' => 'contac-form mb-0', 'novalidate' => 'novalidate')); ?>
                                 <div class="row">
                                     <div class="col-12 mb-15">
                                         <div class="form-group">
                                             <div class="range">
                                                 <div class="range__value text-center pt-0 mt-10">
-                                                    <span class="fs-3"></span>
+                                                    <span class="fs-3 text-success"></span>
                                                 </div>
                                                 <div class="d-flex justify-content-between required-amount mt-10">
                                                     <h6 class="text-uppercase mb-0">Enter Required Amount</h6>
@@ -58,10 +165,11 @@ $this->load->view('includes/header-apply.php');
                                     <div class="col-12">
                                         <div class="form-group error">
                                             <label class="text-uppercase h6 mb-10 text-gray-alt">Mobile number</label>
-                                            <div class="input-group mb-15">
-                                                <span class="input-group-text text-dark fw-bold rounded-0 py-0 px-15"
+                                            <div class="input-group mb-15 input-group-wrap">
+                                                <span
+                                                    class="input-group-text text-dark fw-bold rounded-0 py-0 px-1 border-0"
                                                     id="basic-addon1">+91</span>
-                                                <input class="form-control" type="text"
+                                                <input class="form-control border-0" type="text"
                                                     placeholder="Bank-registered number" id="mobile" name="mobile"
                                                     required minlength="10" maxlength="10" inputmode="numeric"
                                                     data-validation-regex-regex="^[6789]\d{9}$"
@@ -72,57 +180,56 @@ $this->load->view('includes/header-apply.php');
                                         </div>
                                     </div>
                                     <div class="col-12 mb-2">
-                                    <div class="form-group mb-10 ps-0">
-                                        <div class="d-flex align-items-start "> <input type="checkbox" name="tandc"
-                                                id="tandc" class="custom-control-input mb-0 mt-5" value="1" checked
-                                                required>
-                                            <label class="custom-control-label" for="tandc"><small
-                                                    class="ms-10 d-block h6 fw-normal">By proceeding, I agree to
-                                                    Indiafinmax’s <a href="<?= base_url('terms-conditions') ?>"
-                                                        target="_blank" style="text-decoration: none;"
-                                                        class="text-dark">Terms of
-                                                        Use</a>
-                                                    and <a href="<?= base_url('privacy-policy') ?>" target="_blank"
-                                                        style="text-decoration: none;" class="text-dark">Privacy
-                                                        Policy</a></small></label>
+                                        <div class="form-group mb-10 ps-0">
+                                            <div class="d-flex align-items-start "> <input type="checkbox" name="tandc"
+                                                    id="tandc" class="custom-control-input mb-0 mt-5" value="1" checked
+                                                    required>
+                                                <label class="custom-control-label" for="tandc"><small
+                                                        class="ms-10 d-block h6 fw-normal">By submitting this form &
+                                                        proceeding, you agree to the <a
+                                                            href="<?= base_url('terms-conditions') ?>" target="_blank"
+                                                            style="text-decoration: none;" class="text-dark">Terms of
+                                                            Use</a>
+                                                        and <a href="<?= base_url('privacy-policy') ?>" target="_blank"
+                                                            style="text-decoration: none;" class="text-dark">Privacy
+                                                            Policy of IndiaFinMax.</a></small></label>
 
+                                            </div>
+                                            <div class="help-block ms-0 ps-0 mb-2"></div>
                                         </div>
-                                        <div class="help-block ms-0 ps-0 mb-2"></div>
                                     </div>
-                                </div>
-                                
-                                <div class="col-12 mb-2">
-                                    <div class="form-group mb-0 ps-0 pb-15">
-                                        <div class="d-flex align-items-start ">
-                                            <input type="checkbox" name="promotion" id="promotion"
-                                                class="custom-control-input mb-0 mt-5" value="1" checked required>
-                                            <label class="custom-control-label" for="promotion"><small
-                                                    class="ms-10 d-block h6 fw-normal">
-                                                    I would like to receive updates from Indiafinmax by email, call or
-                                                    SMS.
-                                                    I can opt out anytime.
-                                                </small></label>
+
+                                    <div class="col-12 mb-2">
+                                        <div class="form-group mb-0 ps-0 pb-15">
+                                            <div class="d-flex align-items-start ">
+                                                <input type="checkbox" name="promotion" id="promotion"
+                                                    class="custom-control-input mb-0 mt-5" value="1" checked required>
+                                                <label class="custom-control-label" for="promotion"><small
+                                                        class="ms-10 d-block h6 fw-normal">
+                                                        I agree to receive promotional & informational communications
+                                                        from IndiaFinMax through Emails, calls or SMS/RCS Services.
+                                                    </small></label>
+                                            </div>
+                                            <div class="help-block ms-0 ps-0 mb-2"></div>
                                         </div>
-                                        <div class="help-block ms-0 ps-0 mb-2"></div>
                                     </div>
-                                </div>
                                     <div class="text-danger mt-3 mb-3" id="mobilenoError1"></div>
-                                        <div class="col-12 mb-15">
-                                            <button type="submit" id="formsubmit1"
-                                                class="btn btn-green btn-sm text-uppercase"><span class="btn-text">Start
-                                                    Process <i class="fa-solid fa-arrow-right"></i></span></button>
-                                        </div>
-                                    
+                                    <div class="col-12 mb-15">
+                                        <button type="submit" id="formsubmit1"
+                                            class="btn btn-green btn-sm text-uppercase"><span class="btn-text">Start
+                                                Process <i class="fa-solid fa-arrow-right"></i></span></button>
+                                    </div>
+
                                 </div>
-                               
+
                             </div>
                         </div>
                         <?php echo form_close(); ?>
                     </div>
                     <?php } else if ($processstep == 'step2') { ?>
-                    <div class="account-box-frame text-dark bg-white card shadow-sm border">
+                    <div class="account-box-frame text-dark bg-white px-0">
                         <div class="">
-                            <h5 class="mb-10 text-start fw-bold">Enter Your Verification Code</h5>
+                            <h5 class="mb-10 text-start fw-bold text-navy">Verify your mobile</h5>
                             <h6 class="fw-normal">We've sent a 4-digit OTP to
                                 <strong><?php echo $userdetails['mobile']; ?></strong>
                             </h6>
@@ -138,22 +245,23 @@ $this->load->view('includes/header-apply.php');
                                 <div class="form-group error">
                                     <label class="text-uppercase h6 mb-10 text-gray-alt">Enter OTP</label>
                                     <div class="wpcf7-form-control-wrap" data-name="tel-922">
-                                        <input type="text" name="otpcode" id="otpcode"
+                                        <!-- <input type="text" name="otpcode" id="otpcode"
                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required optnumber w-100"
                                             required inputmode="numeric" placeholder="Enter OTP Code" maxlength="4"
                                             data-validation-regex-regex="[0-9]+"
-                                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"> -->
+                                        <div class="input-field text-start">
+                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
+                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
+                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
+                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
+                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
+                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
+                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
+                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
+                                        </div>
                                     </div>
-                                    <!-- <div class="input-field text-start">
-                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
-                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
-                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
-                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
-                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
-                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
-                                            <input type="number" maxlength="1" inputmode="numeric" pattern="[0-9]*"
-                                                id="otpcode" name="otpcode[]" class="me-md-0 me-2 otp-input">
-                                        </div> -->
+
                                     <div class="help-block"></div>
                                 </div>
                             </div>
@@ -192,20 +300,8 @@ $this->load->view('includes/header-apply.php');
                         <?php echo form_close(); ?>
                     </div>
                     <?php } else if ($processstep == 'step3') { ?>
-                    <div class="account-box-frame text-dark card shadow bg-white">
-                        <div class="text-start section-header">
-                            <div class="salaried-img-wrap mb-10 m-auto">
-                                <i class="fas fa-briefcase text-success"></i>
-                            </div>
-                            <div class="text-center">
-                                <h5 class="mb-10 text-center fw-bold text-dark">Employment details</h5>
-                                <p>Choose how you earn — then complete the next steps</p>
-                            </div>
-                            <!-- <p class="mb-0" style="font-size:14px"> <strong>Loan Amount. :
-                                        <?php echo formatePriceIndia($userdetails['loanamount']); ?></strong></p>
-                                <p style="font-size:14px"> <strong> Mobile No. :
-                                        <?php echo $userdetails['mobile']; ?></strong></p> -->
-                        </div>
+                    <div class="text-dark text-dark ps-10 pe-10 py-20">
+
                         <?php echo form_open('onlineprocess/registeredUser', array('id' => 'submitForm3', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
                         <div class="row gx-10 mb-15 justify-content-center">
                             <input type="hidden" id="loanamount" name="loanamount"
@@ -229,22 +325,23 @@ $this->load->view('includes/header-apply.php');
                                     <input type="hidden" id="usertype" name="usertype" value="1">
                                 </div>   -->
 
-                            <label class="h6 mb-10 text-dark">I am currently</label>
-                            <div class="col-md-4 col-lg-4 col-sm-6 col-12 mb-md-0 mb-10">
+                            <label class="text-uppercase h6 mb-10 text-gray-alt">Employment type</label>
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-12 mb-10">
                                 <fieldset class="picker1">
                                     <label for="personalloan" class="w-100">
                                         <input type="radio" name="usertype" id="personalloan" value="1" class="radio"
                                             checked>
                                         <span class="plan-details p-15 bg-light h-100">
-                                            <div class="d-flex mb-0 align-items-center flex-column">
+                                            <div class="d-flex mb-0 align-items-center">
                                                 <div>
-                                                    <div class="salaried-img mb-10">
+                                                    <div class="salaried-img mb-0">
                                                         <img src="<?php echo base_url('assets/images/icons/Salarised.png'); ?>"
                                                             alt="image" class="">
                                                     </div>
                                                 </div>
                                                 <div class="ms-10 employment-content">
                                                     <h6 class="employment-title mb-0">Salaried</h6>
+                                                    <p class="mb-0">Earn a monthly salary</p>
 
                                                 </div>
                                             </div>
@@ -252,14 +349,14 @@ $this->load->view('includes/header-apply.php');
                                     </label>
                                 </fieldset>
                             </div>
-                            <div class="col-md-4 col-lg-4 col-sm-6 col-12 ">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                                 <fieldset class="picker1">
                                     <label for="businessloan" class="w-100">
                                         <input type="radio" name="usertype" id="businessloan" value="2" class="radio">
                                         <span class="plan-details p-15 bg-light h-100">
-                                            <div class="d-flex mb-0 align-items-center flex-column">
+                                            <div class="d-flex mb-0 align-items-center">
                                                 <div>
-                                                    <div class="salaried-img bg-dark mb-10">
+                                                    <div class="salaried-img bg-dark mb-0">
                                                         <img src="<?php echo base_url('assets/images/icons/self-employed.png'); ?>"
                                                             alt="image" class="">
                                                     </div>
@@ -267,6 +364,7 @@ $this->load->view('includes/header-apply.php');
                                                 <div class="ms-10 employment-content">
                                                     <h6 class="employment-title mb-0">Self-Employed
                                                     </h6>
+                                                    <p class="mb-0">Earn a monthly salary</p>
 
                                                 </div>
                                             </div>
@@ -277,11 +375,11 @@ $this->load->view('includes/header-apply.php');
                             <div class="col-12 mb-15 mb-md-20 mt-20">
                                 <div class="form-group">
                                     <label class="text-uppercase h6 mb-10 text-gray-alt">Full name</label>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text text-dark fw-bold rounded-0 py-0 px-20"
+                                    <div class="input-group mb-3 input-group-wrap">
+                                        <span class="input-group-text text-dark fw-bold rounded-0 py-0 px-20 border-0"
                                             id="basic-addon1">
                                             <i class="fa-regular fa-user"></i></span>
-                                        <input class="form-control" type="text" id="username" name="username"
+                                        <input class="form-control border-0" type="text" id="username" name="username"
                                             placeholder="Bank Registered Name" required
                                             data-validation-regex-regex="^[a-zA-Z ]*$">
                                     </div>
@@ -291,11 +389,11 @@ $this->load->view('includes/header-apply.php');
                             <div class="col-12 mb-15 mb-md-20">
                                 <div class="form-group">
                                     <label class="text-uppercase h6 mb-10 text-gray-alt">Email address</label>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text text-dark fw-bold rounded-0 py-0 px-20"
+                                    <div class="input-group mb-3 input-group-wrap">
+                                        <span class="input-group-text text-dark fw-bold rounded-0 py-0 px-20 border-0"
                                             id="basic-addon1">
                                             <i class="fa-regular fa-envelope"></i></span>
-                                        <input class="form-control" type="email" id="useremail" name="useremail"
+                                        <input class="form-control border-0" type="email" id="useremail" name="useremail"
                                             placeholder="Email Id" required>
                                     </div>
                                     <div class="help-block"></div>
@@ -309,13 +407,12 @@ $this->load->view('includes/header-apply.php');
                         <?php echo form_close(); ?>
                     </div>
                     <?php } ?>
-                    
+
                 </div>
 
             </div>
         </div>
     </div>
-
 </section>
 
 <section class="section section-theme-5 pt-0 pt-md-0 pb-xl-0 pb-0 partner-section">
@@ -339,174 +436,191 @@ $this->load->view('includes/header-apply.php');
         <div class="row">
             <div class="col-xl-7 col-12 m-auto">
                 <header class="section-header text-center text-lg-center">
-                    <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">Our
-                        Process</span>
-                    <h2>How It <span class="text-success">Works</span></h2>
+                    <div class="text-hold">
+                        <div class="tag-list mb-20">
+                            <span class="tag-wrap text-dark text-uppercase d-inline-block">Our Process</span>
+                        </div>
+                    </div>
+                    <h2 class="text-navy">How It <span class="text-success">Works</span></h2>
                     <p class="text-center">Six simple steps between you and the funds you need.</p>
                 </header>
             </div>
         </div>
 
 
-        <div class="row process-boxes justify-content-center g-3">
+        <div class="row process-boxes justify-content-center g-20">
 
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
-                    <a href="#" class="text-center text-decoration-none d-flex flex-column">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
+                    <div class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-1.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Share Basic Details</h6>
-                        <p class="text-dark mb-0">Start by sharing the information needed to understand your
-                            application requirements.</p>
-                    </a>
+                        <h6 class="text-navy">Bank Verification</h6>
+                        <p class="text-dark mb-0">We verify your details securely with our banking partners.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
-                    <a href="#" class="text-center text-decoration-none d-flex flex-column">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
+                    <div class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-2.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Review Application Details</h6>
+                        <h6 class="text-navy">Review Application Details</h6>
                         <p class="text-dark mb-0">We help you review basic eligibility factors, documents and next
                             steps. Final eligibility is decided by the lender.</p>
-                    </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
-                    <a href="#" class="text-center text-decoration-none d-flex flex-column">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
+                    <div class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-3.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Choose Application Support</h6>
+                        <h6 class="text-navy">Choose Application Support</h6>
                         <p class="text-dark mb-0">Select a support plan to access document guidance and application
                             assistance. Service charges, if applicable, are shown clearly before payment.</p>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center pt-20">
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
                     <a href="#" class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-4.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Upload Documents Securely</h6>
+                        <h6 class="text-navy">Upload Documents Securely</h6>
                         <p class="text-dark mb-0">Submit the required documents through the secure customer portal.
                         </p>
                     </a>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
-                    <a href="#" class="text-center text-decoration-none d-flex flex-column">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
+                    <div class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-5.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Lender Review</h6>
+                        <h6 class="text-navy">Lender Review</h6>
                         <p class="text-dark mb-0">The NBFC reviews your documents and profile according to its
                             internal policies and applicable guidelines.</p>
-                    </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 mb-3">
-                <div class="p-15 border rounded box-hover">
-                    <a href="#" class="text-center text-decoration-none d-flex flex-column">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-15 border rounded box-hover h-100 card-main shadow-sm">
+                    <div class="text-center text-decoration-none d-flex flex-column">
                         <div class="icon my-20">
-                            <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>" alt="icon">
+                            <img src="<?php echo base_url('assets/images/work-6.png'); ?>" alt="icon">
                         </div>
-                        <h6 class="text-dark">Receive Lender Decision</h6>
+                        <h6 class="text-navy">Receive Lender Decision</h6>
                         <p class="text-dark mb-0">The lender communicates its decision and next steps directly,
                             subject to its eligibility criteria and terms.</p>
-                    </a>
+                    </div>
                 </div>
             </div>
 
-        </div>
 
-    </div>
+        </div>
 </section>
-<section class="section section-theme-5 how-work-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60 bg-light-sky">
+<section class="section section-theme-5 how-work-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60 bg-light-sky faq-section">
     <div class="container">
         <div class="row">
             <div class="col-xl-7 col-12 m-auto">
                 <header class="section-header text-center text-lg-center">
-                    <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">FAQ</span>
-                    <h2>Frequently Asked <span class="text-success">Questions</span></h2>
-                    <p class="text-center">Got questions? We’ve got answers. Here’s everything you need to know about
-                        applying for a loan
+
+                    <div class="text-hold">
+                        <div class="tag-list mb-20">
+                            <span class="tag-wrap text-dark text-uppercase d-inline-block">Faq</span>
+                        </div>
+                    </div>
+                    <h2 class="text-navy">Frequently Asked <span class="text-success">Questions</span></h2>
+                    <p class="text-center">Got questions? We’ve got answers. Here’s everything you need to know
+                        about applying for a loan
                         with Indiafinmax.</p>
                 </header>
             </div>
         </div>
 
 
-        <div class="row process-boxes justify-content-center">
-            <div class="col-md-4 col-sm-6 mb-10">
+        <div class="row process-boxes justify-content-center g-20">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-user-tie text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">Who can apply for a business loan?</h6>
+                    <h5 class="text-dark">Who can apply for a business loan?</h5>
                     <p class="text-dark">Business owners, traders, manufacturers and service providers running a
                         registered or established business can apply.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 mb-10">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-file-alt text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">What documents are required?</h6>
-                    <p class="text-dark">Basic KYC, business proof, bank statements and income documents. Our team will
-                        share the exact list during application.</p>
+                    <h5 class="text-dark">What documents are required?</h5>
+                    <p class="text-dark">Basic KYC, business proof, bank statements and income documents. Our team
+                        will share the exact list during application.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 mb-10">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-bolt text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">How long does approval take?</h6>
+                    <h5 class="text-dark">How long does approval take?</h5>
                     <p class="text-dark">Most applications are reviewed within 48 hours after all documents are
                         submitted.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 mb-10">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-rupee-sign text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">What loan amount can I get?</h6>
-                    <p class="text-dark">You can apply for ₹1,00,000 up to ₹5,00,000, depending on your business profile
-                        and eligibility.</p>
+                    <h5 class="text-dark">What loan amount can I get?</h5>
+                    <p class="text-dark">You can apply for ₹1,00,000 up to ₹5,00,000, depending on your business
+                        profile and eligibility.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 mb-10">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-shield-alt text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">Is any collateral required?</h6>
-                    <p class="text-dark">Requirements depend on the loan amount and your profile. Our expert will guide
-                        you on the best option.</p>
+                    <h5 class="text-dark">Is any collateral required?</h5>
+                    <p class="text-dark">Requirements depend on the loan amount and your profile. Our expert will
+                        guide you on the best option.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 mb-0">
+            <div class="col-md-4 col-sm-6">
                 <a href="#" class="">
-                    <div class="icon mb-20">
-                        <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>" alt="icon">
+                    <div class="categories-image mb-15">
+                        <span class="icon">
+                            <i class="fas fa-check-circle text-success"></i>
+                        </span>
                     </div>
-                    <h6 class="text-dark">Can I prepay or close my loan early?</h6>
-                    <p class="text-dark mb-0">Yes, early closure is possible. Applicable terms will be shared clearly
-                        before you sign.</p>
+                    <h5 class="text-dark">Can I prepay or close my loan early?</h5>
+                    <p class="text-dark mb-0">Yes, early closure is possible. Applicable terms will be shared
+                        clearly before you sign.</p>
                 </a>
             </div>
         </div>
@@ -514,7 +628,7 @@ $this->load->view('includes/header-apply.php');
     </div>
 </section>
 
-<section class="section section-contact section-theme-1 bg-light-gray">
+<section class="section section-contact section-theme-1 bg-white">
     <div class="container">
         <p class="mb-0"><small><strong>Disclaimer: </strong><?php echo COMPANY_NAME ?> is not a lender or financial
                 institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees,

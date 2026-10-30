@@ -1,18 +1,18 @@
 <?php $this->load->view('includes/header-apply'); ?>
 
 <main class="main">
-    <section class="section section-theme-1 packages-block pt-130 cust-height d-flex align-items-center bg-light">
+    <section class="section section-theme-1 packages-block pt-130 cust-height d-flex align-items-center eligible-section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12 col-12 m-auto">
-                    <div class="block-holder form-condidates bg-white shadow card-right rounded-1">
+              <div class="block-holder bg-white shadow p-25 card-right-main-wrap">
                         <div class="subhead text-center mb-0">
                             <?php if($responsedata == "true") { ?>
                             <div class="text-center mb-15">
                                 <i class="fa-regular fa-circle-check fs-1 text-success"></i>
 
                             </div>
-                            <h2 class="text-dark">Congratulations! <span class="text-success">kirtan!</span> </h2>
+                            <h3 class="text-dark">Congratulations! <span class="text-success">kirtan!</span> </h3>
                             <p>A dedicated loan expert will reach out to complete <br> documentation and bank verification.
                             </p>
 
@@ -61,7 +61,7 @@
                                 <i class="fa-regular fa-circle-xmark text-danger fs-1"></i>
 
                             </div>
-                            <h2  class="text-dark">Payment  <br><span class="text-danger">Unsuccessful</span></h2>
+                            <h3  class="text-dark">Payment  <br><span class="text-danger">Unsuccessful</span></h3>
                             <p>
                                 We're sorry, but your payment could not be processed. Please try again or contact our
                                 support team for assistance.
@@ -77,32 +77,32 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                                     <div
-                                        class="card-blog-wrapper border p-10 mb-md-0 mb-10 bg-light-sky card shadow-none">
+                                        class="card-blog-wrapper p-10 mb-md-0 mb-10 card shadow-none">
 
-                                        <h6 class="mb-0 text-uppercase">Sanctioned</h6>
-                                        <p class="mb-0 text-dark fw-bold">₹1,95,000</p>
+                                        <h6 class="mb-0 text-navy fw-bold text-uppercase">Card Issue</h6>
+                                        <p class="mb-0 text-dark">Your service is active. Log in to the portal.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                                     <div
-                                        class="card-blog-wrapper border p-10 mb-md-0 mb-10 bg-light-sky card shadow-none">
+                                        class="card-blog-wrapper p-10 mb-md-0 mb-10 card shadow-none">
 
-                                        <h6 class="mb-0 text-uppercase">Tenure</h6>
-                                        <p class="mb-0 text-dark fw-bold">Up to 60 mo</p>
+                                        <h6 class="mb-0 text-navy fw-bold text-uppercase">Network</h6>
+                                        <p class="mb-0 text-dark">Invoice is available for download in portal.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                                     <div
-                                        class="card-blog-wrapper border p-10 mb-md-0 mb-10 bg-light-sky card shadow-none">
+                                        class="card-blog-wrapper p-10 mb-md-0 mb-10 card shadow-none">
 
-                                        <h6 class="mb-0 text-uppercase">Disbursal</h6>
-                                        <p class="mb-0 text-dark fw-bold">Within 48 hrs</p>
+                                        <h6 class="mb-0 text-navy fw-bold text-uppercase">Cancelled</h6>
+                                        <p class="mb-0 text-dark">Our team will contact you within 24 hrs.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="mt-20">
                                 <p
-                                    class="text-success border-success py-2 rounded-pill border px-15 b-0">
+                                    class="text-success border-success py-5 rounded-pill border px-15 b-0 d-inline-block">
                                     Don't worry! No
                                     amount has been deducted from your account.
                                 </p>
