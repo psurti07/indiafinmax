@@ -25,7 +25,7 @@
                     <b style="font-size:14pt;">indiafinmax.com</b><br>
                     <b>Roop Finserve India Pvt. Ltd.</b><br/>
                     <div>
-                    <span style="white-space: pre-wrap;" id="tmp_org_address">G-5, Green Elina Complex<br/>Anand Mahal Road, Adajan<br/>Surat, Gujarat, India - 395009<<br/>Mo.: <?php echo COMPANY_MOBILE; ?><br/>Email: <?php echo COMPANY_EMAIL; ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
+                    <<span style="white-space: pre-wrap;" id="tmp_org_address">11th Floor , H - 1106 , <br/>Pandit Deendayal Nagar , Ugat Bhesan Road , <br/>Beside Medical College<br>Jahangirabada , Surat , Gujarat ,395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
                      </div>
                   </td>
                    <td style="vertical-align:top;word-wrap:break-word;float:right;text-align:right;width:50%;">
