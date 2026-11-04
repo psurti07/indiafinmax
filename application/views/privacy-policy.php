@@ -16,22 +16,6 @@ $this->load->view('includes/header-apply');
     </div>
 </div>
  
-
-<section class="section section-theme-5 pt-0 pt-md-0 pb-xl-80 partner-section">
-    <div class="container">
-        <div class="trending-categories-slider">
-            <?php foreach ($banklist as $row) { ?>
-            <div class="wrap text-center">
-                <div class="justify-content-center categories-image">
-                    <img src="<?php echo base_url('assets/images/bank/' . $row->bank_image); ?>"
-                        alt="<?= $row->bank_name ?>" class="m-auto img-fluid">
-                </div>
-            </div>
-            <?php } ?>
-        </div>
-    </div>
-</section>
-
 <main class="main">
     <section class="section section-job-details add-styles section-theme-1 pt-60 pt-md-60 py-xl-80">
         <div class="container">

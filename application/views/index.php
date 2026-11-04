@@ -35,7 +35,7 @@ $this->load->view('includes/header');
 
                                                 </div>
                                                 <div class="col-lg-8 col-md-9 col-7 p-0">
-                                                    <p class="mb-0 fa-xs text-navy fw-bold">5,000+ happy clients</p>
+                                                    <p class="mb-0 fa-xs text-navy fw-bold">10,000+ Clients Supported</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,6 +64,14 @@ $this->load->view('includes/header');
 <main class="main">
     <section class="section section-theme-5 pt-0 pt-md-60 pt-xl-40 pb-40 pb-xl-40 pb-md-40 partner-section">
         <div class="container">
+            <div class="row">
+                    <div class="col-xl-7 col-12 m-auto">
+                        <header class="section-header text-center text-lg-center">
+                            <h2 class="text-navy">Our partnered <span class="text-success">NBFCs</span></h2>
+                        </header>
+                    </div>
+                </div>
+            <div class="row">
             <div class="trending-categories-slider">
                 <?php foreach ($banklist as $row) { ?>
                 <div class="wrap text-center">
@@ -74,6 +82,7 @@ $this->load->view('includes/header');
                 </div>
                 <?php } ?>
             </div>
+</div>
         </div>
     </section>
 
@@ -91,7 +100,7 @@ $this->load->view('includes/header');
                                 </div>
                             </div>
                             <h2 class="text-navy">About <span class="text-success">IndiaFinMax</span></h2>
-                            <p class="text-center">Six simple steps between you and the funds you need.</p>
+                            <p class="text-center">Clear guidance and support throughout your loan application journey.</p>
                         </header>
                     </div>
                 </div>
@@ -150,7 +159,7 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <h2 class="text-navy">How It <span class="text-success">Works</span></h2>
-                        <p class="text-center">Six simple steps between you and the funds you need.</p>
+                        <p class="text-center">Six steps to guide you through the loan application process.</p>
                     </header>
                 </div>
             </div>
@@ -164,8 +173,8 @@ $this->load->view('includes/header');
                             <div class="icon my-20">
                                 <img src="<?php echo base_url('assets/images/work-1.png'); ?>" alt="icon">
                             </div>
-                            <h6 class="text-navy">Bank Verification</h6>
-                            <p class="text-dark mb-0">We verify your details securely with our banking partners.</p>
+                            <h6 class="text-navy">Verify Your Details</h6>
+                            <p class="text-dark mb-0">Provide the information needed to begin your application.</p>
                         </div>
                     </div>
                 </div>
@@ -177,8 +186,7 @@ $this->load->view('includes/header');
                                 <img src="<?php echo base_url('assets/images/work-2.png'); ?>" alt="icon">
                             </div>
                             <h6 class="text-navy">Review Application Details</h6>
-                            <p class="text-dark mb-0">We help you review basic eligibility factors, documents and next
-                                steps. Final eligibility is decided by the lender.</p>
+                            <p class="text-dark mb-0">Review basic eligibility requirements, documents, and next steps. Final eligibility is determined by the lender.</p>
                         </div>
                     </div>
                 </div>
@@ -190,8 +198,7 @@ $this->load->view('includes/header');
                                 <img src="<?php echo base_url('assets/images/work-3.png'); ?>" alt="icon">
                             </div>
                             <h6 class="text-navy">Choose Application Support</h6>
-                            <p class="text-dark mb-0">Select a support plan to access document guidance and application
-                                assistance. Service charges, if applicable, are shown clearly before payment.</p>
+                            <p class="text-dark mb-0">Select a support plan for document guidance and application assistance. Any service charges are shown before payment.</p>
                         </div>
                     </div>
                 </div>
@@ -203,8 +210,8 @@ $this->load->view('includes/header');
                             <div class="icon my-20">
                                 <img src="<?php echo base_url('assets/images/work-4.png'); ?>" alt="icon">
                             </div>
-                            <h6 class="text-navy">Upload Documents Securely</h6>
-                            <p class="text-dark mb-0">Submit the required documents through the secure customer portal.
+                            <h6 class="text-navy">Submit Documents</h6>
+                            <p class="text-dark mb-0">Upload the required documents through the customer portal.
                             </p>
                         </div>
                     </div>
@@ -217,8 +224,7 @@ $this->load->view('includes/header');
                                 <img src="<?php echo base_url('assets/images/work-5.png'); ?>" alt="icon">
                             </div>
                             <h6 class="text-navy">Lender Review</h6>
-                            <p class="text-dark mb-0">The NBFC reviews your documents and profile according to its
-                                internal policies and applicable guidelines.</p>
+                            <p class="text-dark mb-0">The NBFC reviews your application and documents according to its policies.</p>
                         </div>
                     </div>
                 </div>
@@ -229,9 +235,8 @@ $this->load->view('includes/header');
                             <div class="icon my-20">
                                 <img src="<?php echo base_url('assets/images/work-6.png'); ?>" alt="icon">
                             </div>
-                            <h6 class="text-navy">Receive Lender Decision</h6>
-                            <p class="text-dark mb-0">The lender communicates its decision and next steps directly,
-                                subject to its eligibility criteria and terms.</p>
+                            <h6 class="text-navy">Receive a Decision</h6>
+                            <p class="text-dark mb-0">The lender communicates its decision and any next steps, subject to its criteria and terms.</p>
                         </div>
                     </div>
                 </div>
@@ -252,20 +257,14 @@ $this->load->view('includes/header');
                         </div>
                     </div>
 
-                    <h2 class="mb-15 text-navy">What Makes <span class="text-success">Indiafinmax <br> </span>Emerge as
-                        the Best?
+                    <h2 class="mb-15 text-navy">Why Choose <span class="text-success">Indiafinmax? <br> </span>
                     </h2>
-                    <p>At IndiaFinMax, we are defined by our commitment to quality, customer-focused methodology, and
-                        the goal of empowering all our diverse financial clients.</p>
+                    <p>Get clear guidance and support throughout your loan application journey.</p>
                     <ul class="list-unstyled help-list">
-                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; Effective Collaboration With Top
-                            NBFCs</li>
-                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; Expert
-                            Expert Financial Consultation</li>
-                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp;
-                            Easy Application Process</li>
-                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp;
-                            Impeccable Subscription Benefits</li>
+                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; Associated NBFC Network</li>
+                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; One-on-One Guidance</li>
+                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; Online Application Support</li>
+                        <li><i class="fa fa-check-circle fs-5 text-blue"></i>&nbsp; Clear Service Information</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-12 col-lg-7 img-col">
@@ -279,8 +278,7 @@ $this->load->view('includes/header');
                                 </div>
                                 <div class="text-start">
                                     <h6>Associated NBFC Network</h6>
-                                    <p class="mt-10">We work with associated NBFC partners to support a smoother loan
-                                        application process.</p>
+                                    <p class="mt-10">We work with NBFC partners to support the loan application process.</p>
                                 </div>
                             </div>
                         </div>
@@ -292,9 +290,8 @@ $this->load->view('includes/header');
                                     </div>
                                 </div>
                                 <div class="text-start">
-                                    <h6>Personalised Consultation</h6>
-                                    <p class="mt-10">Get one-on-one guidance on documents, application steps and lender
-                                        requirements.</p>
+                                    <h6>Personalised Guidance</h6>
+                                    <p class="mt-10">Get one-on-one support with documents, application steps and lender requirements.</p>
                                 </div>
                             </div>
                         </div>
@@ -307,8 +304,7 @@ $this->load->view('includes/header');
                                 </div>
                                 <div class="text-start">
                                     <h6>Customer-Focused Support</h6>
-                                    <p class="mt-10">Our team keeps the process clear, responsive and easy to
-                                        understand.</p>
+                                    <p class="mt-10">Our team helps you understand the process and your next steps.</p>
                                 </div>
                             </div>
                         </div>
@@ -321,8 +317,7 @@ $this->load->view('includes/header');
                                 </div>
                                 <div class="text-start">
                                     <h6>Digital Application Support</h6>
-                                    <p class="mt-10">Receive guidance for secure digital document submission and
-                                        application steps, where available.</p>
+                                    <p class="mt-10">Receive guidance on submitting documents and completing application steps online, where available.</p>
                                 </div>
                             </div>
                         </div>
@@ -603,9 +598,7 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <h2 class="text-navy">Frequently Asked <span class="text-success">Questions</span></h2>
-                        <p class="text-center">Got questions? We’ve got answers. Here’s everything you need to know
-                            about applying for a loan
-                            with Indiafinmax.</p>
+                        <p class="text-center">Find answers to common questions about applying for a personal loan through IndiaFinMax.</p>
                     </header>
                 </div>
             </div>
@@ -617,9 +610,8 @@ $this->load->view('includes/header');
                                 <i class="fas fa-user-tie text-success"></i>
                             </span>
                         </div>
-                        <h6 class="text-dark">Who can apply for a business loan?</h6>
-                        <p class="text-dark">Business owners, traders, manufacturers and service providers running a
-                            registered or established business can apply.</p>
+                        <h6 class="text-dark">Who can apply for a personal loan?</h6>
+                        <p class="text-dark">Salaried and self-employed individuals may apply, subject to the lender’s eligibility criteria.</p>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -630,8 +622,7 @@ $this->load->view('includes/header');
                             </span>
                         </div>
                         <h6 class="text-dark">What documents are required?</h6>
-                        <p class="text-dark">Basic KYC, business proof, bank statements and income documents. Our team
-                            will share the exact list during application.</p>
+                        <p class="text-dark">Lenders may request identity and address proof, income documents and bank statements. Requirements vary by lender.</p>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -642,8 +633,7 @@ $this->load->view('includes/header');
                             </span>
                         </div>
                         <h6 class="text-dark">How long does approval take?</h6>
-                        <p class="text-dark">Most applications are reviewed within 48 hours after all documents are
-                            submitted.</p>
+                        <p class="text-dark">Review timelines vary based on the lender, application details and document verification.</p>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -653,9 +643,8 @@ $this->load->view('includes/header');
                                 <i class="fas fa-rupee-sign text-success"></i>
                             </span>
                         </div>
-                        <h6 class="text-dark">What loan amount can I get?</h6>
-                        <p class="text-dark">You can apply for ₹1,00,000 up to ₹5,00,000, depending on your business
-                            profile and eligibility.</p>
+                        <h6 class="text-dark">What loan amount can I apply for?</h6>
+                        <p class="text-dark">The available loan amount depends on the lender’s criteria and your eligibility.</p>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -665,9 +654,8 @@ $this->load->view('includes/header');
                                 <i class="fas fa-shield-alt text-success"></i>
                             </span>
                         </div>
-                        <h6 class="text-dark">Is any collateral required?</h6>
-                        <p class="text-dark">Requirements depend on the loan amount and your profile. Our expert will
-                            guide you on the best option.</p>
+                        <h6 class="text-dark">Is collateral required?</h6>
+                        <p class="text-dark">Personal loans are generally unsecured. Requirements depend on the lender and loan product.</p>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -677,9 +665,8 @@ $this->load->view('includes/header');
                                 <i class="fas fa-check-circle text-success"></i>
                             </span>
                         </div>
-                        <h6 class="text-dark">Can I prepay or close my loan early?</h6>
-                        <p class="text-dark mb-0">Yes, early closure is possible. Applicable terms will be shared
-                            clearly before you sign.</p>
+                        <h6 class="text-dark">Can I repay my loan early?</h6>
+                        <p class="text-dark mb-0">Prepayment or early closure may be available, subject to the lender’s terms and applicable charges.</p>
                     </a>
                 </div>
             </div>
