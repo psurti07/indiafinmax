@@ -43,12 +43,12 @@ $this->load->view('includes/header');
                                 </div>
                             </div>
                         </div>
-                        <h1>Smart Loan Guidance, <br>Made Simple with <br><span class="text-success">IndiaFinMax</span>
+                        <h1>Smart Loan Consultation, <br>Made Simple with <br><span class="text-success">IndiaFinMax</span>
                         </h1>
                         <p>Get clear support for documents, application steps and understanding lender terms
                         </p>
                         <a href="<?php echo site_url('onlineprocess/applynow'); ?>" class="btn btn-green btn-sm"><span
-                                class="btn-text">Apply Now <img
+                                class="btn-text">Get Consultation<img
                                     src="<?php echo base_url('assets/images/icons/arrow-right.png'); ?>"
                                     alt="Video Image"></span></a>
                     </div>
@@ -326,7 +326,7 @@ $this->load->view('includes/header');
             </div>
         </div>
     </section>
-
+<!--
     <section class="section section-theme-5 how-work-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60" style="background: linear-gradient(180deg, #00173B 0%, #0B3D8C 100%);
 ">
         <div class="container">
@@ -364,7 +364,7 @@ $this->load->view('includes/header');
             </div>
         </div>
     </section>
-
+-->
     <section class="section section-theme-9 featured_Jobs_Block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60"
         id="testimonial">
         <div class="container">

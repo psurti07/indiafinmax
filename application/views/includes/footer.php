@@ -60,7 +60,7 @@
 	                    <ul class="footer-links">
 	                        <li><a class="text-white" href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a></li>
 							<li><a class="text-white" href="<?php echo site_url('terms-conditions'); ?>">Terms &amp; Conditions</a></li>
-							<li><a class="text-white" href="#">Refund Policy</a></li>
+							<li><a class="text-white" href="<?php echo site_url('refund-policy'); ?>">Refund Policy</a></li>
 							<li><a class="text-white" href="<?php echo site_url('disclaimer'); ?>">Disclaimer</a></li>
 	                        </li>
 	                      
